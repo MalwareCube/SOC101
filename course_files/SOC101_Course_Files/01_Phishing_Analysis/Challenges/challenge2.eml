@@ -1,0 +1,130 @@
+Delivered-To: emily.nguyen@glbllogistics.co
+Received: by 2002:a05:612c:fd0:b0:46b:1f60:44ff with SMTP id kg16csp1343230vqb;
+        Sat, 11 May 2024 21:10:53 -0700 (PDT)
+Return-Path: <0101018f6aff12b2-5bcaa145-861b-45da-a06e-b5c1ee3ca941-000000@email.dropbox.com>
+Received: from a60-143.smtp-out.us-west-2.amazonses.com (a60-143.smtp-out.us-west-2.amazonses.com. [54.240.60.143])
+        by mx.google.com with ESMTPS id 98e67ed59e1d1-2b628868ba8si8803000a91.5.2024.05.11.21.10.52
+        for <emily.nguyen@glbllogistics.co>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 11 May 2024 21:10:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 0101018f6aff12b2-5bcaa145-861b-45da-a06e-b5c1ee3ca941-000000@email.dropbox.com designates 54.240.60.143 as permitted sender) client-ip=54.240.60.143;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@dropbox.com header.s=b55ck4kgrdgjxhl3qlcrbmzyg4d26eak header.b=I7MrJlfM;
+       dkim=pass header.i=@amazonses.com header.s=7v7vs6w47njt4pimodk5mmttbegzsi6n header.b=Uif1Oeci;
+       spf=pass (google.com: domain of 0101018f6aff12b2-5bcaa145-861b-45da-a06e-b5c1ee3ca941-000000@email.dropbox.com designates 54.240.60.143 as permitted sender) smtp.mailfrom=0101018f6aff12b2-5bcaa145-861b-45da-a06e-b5c1ee3ca941-000000@email.dropbox.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=dropbox.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=b55ck4kgrdgjxhl3qlcrbmzyg4d26eak; d=dropbox.com; t=1715487052;
+	h=Content-Type:MIME-Version:From:To:CC:Subject:Date:Message-ID;
+	bh=7mD+NClPaW+Hx8izIJ1LHxrEVnQ8SNODPM2hewQvOEg=;
+	b=I7MrJlfMrktaBzQGCzdMnxTbmzAdUraqUk3rNEeaUgowoBOs1jrULNiTGiMKKvCC
+	ZK6uFiZU7wMuIEy1Xmd0p4yOl1wOzD4pIHJqPSzF1QOLHxmfiaN+c/QRCoFeU6mY1/l
+	uK9tguv7AeVL13MLRcaLt8tMpgaelmoWCRvO4cvM=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=7v7vs6w47njt4pimodk5mmttbegzsi6n; d=amazonses.com; t=1715487052;
+	h=Content-Type:MIME-Version:From:To:CC:Subject:Date:Message-ID:Feedback-ID;
+	bh=7mD+NClPaW+Hx8izIJ1LHxrEVnQ8SNODPM2hewQvOEg=;
+	b=Uif1OeciD1YuSczYGA05/3sCUMIQlhR0Ea2rhAOHyH3jtZ3grcnELzlEBm9FitjZ
+	KqYtGk/q1FBKGJjsAHZhS+t5gbnnv+AfPSGxaHUlYd0s68wgk/O0H5uefGJe6XjWvqd
+	z7ODeD8dcWRckI3bZrxPADXVsgvVwg5E14wNCG1s=
+Content-Type: multipart/alternative; boundary="===============5536739138589363368=="
+MIME-Version: 1.0
+From: Dropbox <no-reply@dropbox.com>
+To: emily.nguyen@glbllogistics.co
+CC: 
+Subject: Reset your Dropbox password
+Date: Sun, 12 May 2024 04:10:52 +0000
+Message-ID: <0101018f6aff12b2-5bcaa145-861b-45da-a06e-b5c1ee3ca941-000000@us-west-2.amazonses.com>
+X-Dropbox-Message-ID: 15848236649165401982
+x-cid: 8337
+Feedback-ID: 1.us-west-2.C1J9pRCK9rJULWC8wBKFbk8/mhlW6tSneJoML9ymcSA=:AmazonSES
+X-SES-Outgoing: 2024.05.12-54.240.60.143
+
+--===============5536739138589363368==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+Hi Emily,
+
+Someone recently requested a password change for your Dropbox account. If t=
+his was you, you can set a new password here:
+
+Reset password[1]
+
+If you don't want to change your password or didn't request this, just igno=
+re and delete this message.
+
+To keep your account secure, please don't forward this email to anyone. See=
+ our Help Center for more security tips[2] .
+
+Happy Dropboxing!
+
+[1]: https://www.dropbox.com/l/ABCIzswwTTJ9--CxR05fYXX35pPA-Y0m3PY/forgot_f=
+inish
+[2]: https://www.dropbox.com/l/AADQ493u2QLcZrv2kCW6C6i0Ac-mR0hUXxU/help/365
+--===============5536739138589363368==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+                        <!--[if !mso]><!-- -->
+                        <style>
+                            @font-face {
+                                font-family: Open Sans;
+                                src: url('http://fonts.googleapis.com/css?f=
+amily=3DOpen+Sans');
+                            }
+                        </style>
+                        <!--<![endif]-->
+                    =20
+                        <style>
+                            table {
+                                color: inherit;
+                            }
+                        </style>
+                    </head>
+<body style=3D"font-size: 31px; font-family: 'Open Sans', 'HelveticaNeue-Li=
+ght', 'Helvetica Neue Light',
+    'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:=
+ #404040; padding: 0; width: 100% !important; -webkit-text-size-adjust: 100=
+%; font-weight: 300 !important; margin: 0; -ms-text-size-adjust: 100%;" mar=
+ginheight=3D"0" marginwidth=3D"0" id=3D"dbx-email-body"><div style=3D"max-w=
+idth: 600px !important; padding: 4px;"><table cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"padding: 0 45px; width: 100% !important; padding-top: 45px;=
+ border: 1px solid #F0F0F0; background-color: #FFFFFF;" border=3D"0" align=
+=3D"center"><tr><td align=3D"center">
+<table cellspacing=3D"0" border=3D"0" width=3D"100%"><tr><td style=3D"font-=
+size: 0px;text-align: left;" valign=3D"top"><img src=3D=22https://raw.githubusercontent.com/MalwareCube/SOC101/main/ass=
+ets/01=5FPhishing=5FAnalysis/dropbox.png=22 style=3D=22=22 =
+catalogid=3D=22glyph=5F116=5F98=5Fpng=22 alt=3D=22The Dropbox logo=22 =
+width=3D=2240px=22></td></tr></t=
+able>
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%">
+<tr style=3D"font-size: 16px; font-weight: 300; color: #404040; font-family=
+: 'Open Sans', 'HelveticaNeue-Light', 'Helvetica Neue Light',
+    'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; line-h=
+eight: 26px; text-align: left;"><td>
+<br><br>Hi Emily,<br><br>Someone recently requested a password change for =
+your Dropbox account. If this was you, you can set a new password here: <br=
+><br><a style=3D'border-radius: 4px; font-size: 15px; color: white; text-de=
+coration: none; padding: 14px 7px 14px 7px; width: 210px; max-width: 210px;=
+ font-family: "Open Sans", "Helvetica Neue", Arial; margin: 0; display: blo=
+ck; background-color: #007ee6; text-align: center;' href=3D"https://www.dro=
+pbox.com/l/AADiZXaA7dm2EyafvAILlHJAzwU3D55FQwg/forgot_finish">Reset passwor=
+d</a><br>If you don't want to change your password or didn't request this, =
+just ignore and delete this message.<br><br>To keep your account secure, pl=
+ease don't forward this email to anyone. See our Help Center for <a href=3D=
+"https://www.dropbox.com/l/AAAN2hEjsnK4UD1fkJxpXCS15vzTRW64Tjc/help/365" cl=
+ass=3D"external-tracking">more security tips</a>.<br><br>Happy Dropboxing!<=
+/td></tr>
+<tr><td height=3D"40"></td></tr>
+</table>
+</td></tr></table></div></body>
+</html><img height=3D"1" src=3D"https://www.dropbox.com/l/AACK_ihQPkvHRxrdw=
+goAKiptOg-dtAhzX2Y" width=3D"1" />
+--===============5536739138589363368==--

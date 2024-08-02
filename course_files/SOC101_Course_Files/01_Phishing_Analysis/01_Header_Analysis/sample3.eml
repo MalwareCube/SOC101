@@ -1,0 +1,567 @@
+Delivered-To: rachel.jones@cosmicfusiontech.com
+Received: by 2002:a98:9911:0:b0:1e8:f594:51be with SMTP id u17csp1835503eib;
+        Thu, 7 Dec 2023 06:36:21 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IFGwlm0hTIPtz7v+vMfShshWmq71WZLvw093R67LeyrO/b0v0B+5Un8aVDHdiqDdCmwd14S
+X-Received: by 2002:a25:2447:0:b0:db7:dad0:76b1 with SMTP id k68-20020a252447000000b00db7dad076b1mr2102831ybk.77.1701959781472;
+        Thu, 07 Dec 2023 06:36:21 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1701959781; cv=none;
+        d=google.com; s=arc-20160816;
+        b=sdh0Fd4Ufq1QV8mgwQhOURF/GQIKWo9bho2wrycCH81NbAMWylpbdnQRphNn6VhLFf
+         f3nogRd72H1CZcXI6u8xuC3fXCewfA1H9l5DbKfyx7VFvbdEDXK1y7yrgLEkDpfOh2k4
+         Pjec52BYoSLKKU8U/R1IacvyUEdWGhX8IA5leKsUOkVIw3Zrg3xXzMxrADHDISWkU7Ou
+         15hu7Ejl+NveCtGHttLgzC7U+2elgkPmvV/eMWYy/IAynVvE3cPUtpbmDWrArbJ2ScW1
+         HzpFUtUwXoWqdTA52ZNKERche9kvb/MiZ3nD8aSnrvV/hzhNr72t4fHUbIVmUgNAnA++
+         Lwyg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:mime-version:from:date
+         :content-transfer-encoding:dkim-signature:dkim-signature;
+        bh=JC8puLkuSJe0B+NjT2//zxmJq/tV+KenAsoFaWhg/KY=;
+        fh=72kidqwaYpvoUwwKWKsQNwpjo7Nxx2UY8G3wITrM9Nw=;
+        b=wgDtUVGSFE2fVzZzubB8Hp9oDE1FoXf/O4On5tmrBbUAfsbo+3RBp6T7ME4/4CD0FR
+         yGYNkwmgG4Eo1T2+RJP1oxZVn6kWCBsGDsCQEIqDHr9IBTbjezHMjHcdpz12PaVe+ZYs
+         caxYVYK7h+wlkvJHuZ6prmrCywlTwDbQ8sk6e7p03R2EHeWGujl9IcPDBDoMJ5vpKEwl
+         JX4+C9WHe3gNvF0nf2kXQhPwu1q2hERcfxRMdxMQtAXYB9rFjnUqJ3NjmLryT60ffCGu
+         W9VbLXXOialbzOUTSgGsOuqBiS9T5q6/C+6q9L9UT8YRv8EmmZWfZwBY7eeKDOhE5h7t
+         BQGw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@namecheap.com header.s=s1 header.b=ZUpafHVI;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=CxdmlJnR;
+       spf=pass (google.com: domain of bounces+18856604-a1f1-rachel.jones=cosmicfusiontech.com@mailserviceemailout1.namecheap.com designates 149.72.142.11 as permitted sender) smtp.mailfrom="bounces+18856604-a1f1-rachel.jones=cosmicfusiontech.com@mailserviceemailout1.namecheap.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=namecheap.com
+Return-Path: <bounces+18856604-a1f1-rachel.jones=cosmicfusiontech.com@mailserviceemailout1.namecheap.com>
+Received: from o22.mailservice.namecheap.com (o22.mailservice.namecheap.com. [149.72.142.11])
+        by mx.google.com with ESMTPS id s41-20020a25aa2c000000b00da1c5d01d92si750589ybi.91.2023.12.07.06.36.20
+        for <rachel.jones@cosmicfusiontech.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 07 Dec 2023 06:36:21 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+18856604-a1f1-rachel.jones=cosmicfusiontech.com@mailserviceemailout1.namecheap.com designates 149.72.142.11 as permitted sender) client-ip=149.72.142.11;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@namecheap.com header.s=s1 header.b=ZUpafHVI;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=CxdmlJnR;
+       spf=pass (google.com: domain of bounces+18856604-a1f1-rachel.jones=cosmicfusiontech.com@mailserviceemailout1.namecheap.com designates 149.72.142.11 as permitted sender) smtp.mailfrom="bounces+18856604-a1f1-rachel.jones=cosmicfusiontech.com@mailserviceemailout1.namecheap.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=namecheap.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=namecheap.com;
+	h=content-transfer-encoding:content-type:from:mime-version:subject:
+	x-feedback-id:to:cc:content-type:from:subject:to;
+	s=s1; bh=JC8puLkuSJe0B+NjT2//zxmJq/tV+KenAsoFaWhg/KY=;
+	b=ZUpafHVIpO4QaVful0Mv0C61WY+SF4VSMb2LfGgbL7hnuysuFTw2QA3lXOIESREai9Hx
+	N+TgVafvU33C1gQJcW5pDDAw9o4DYayi13gjufKYmuIyQcshL1nV4tm9un+6wJb9JKJljp
+	Vsy1vCChF0uzbL82X15IVzHVNqB4w7mGnTB3gZCh5WWQYxerf0TPfiwRoVi39BoHw1/670
+	qoitpQgZZhMu6mMsVdq4Y/W3ybR1a7knaxDmGQZl5Albl/P4AmeDGWmbpwNw2ie83Qo7/F
+	GiPRkznIqXgfQRjE4uGsU3MVOMS35W8rTSB+GdPzo7waQi7hDfh3KwI4y+zWJEsg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=content-transfer-encoding:content-type:from:mime-version:subject:
+	x-feedback-id:to:cc:content-type:from:subject:to;
+	s=smtpapi; bh=JC8puLkuSJe0B+NjT2//zxmJq/tV+KenAsoFaWhg/KY=;
+	b=CxdmlJnRasscvHPNLf/BiH7kESJ8GjeaYFtLrFhtdxbWpqaMkB5qNe3HHf0++cHpeicW
+	NNnJRwDiZiH7mdfDWUOMwLKiJzvVQmSL64uKIYTY8TKTgPYDV58OK51fY7aNM1cOC7apKb
+	b/cr7MHUa/Jk7C8RZTXX0Rr00pcwhZxWw=
+Received: by filterdrecv-8db964b6b-26c2t with SMTP id filterdrecv-8db964b6b-26c2t-1-6571D863-4D
+        2023-12-07 14:36:19.6883602 +0000 UTC m=+4391674.827712568
+Received: from MTg4NTY2MDQ (unknown)
+	by geopod-ismtpd-5 (SG) with HTTP
+	id pmro8NRnRreuZUNzUMTXww
+	Thu, 07 Dec 2023 14:36:19.619 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=iso-8859-1
+Date: Thu, 07 Dec 2023 14:36:19 +0000 (UTC)
+From: Namecheap Renewals <renewals@namecheap.com>
+Mime-Version: 1.0
+Message-ID: <pmro8NRnRreuZUNzUMTXww@geopod-ismtpd-5>
+Subject: Rachel, cosmicfusiontech.com will expire in 7 days - renew now
+X-Feedback-ID: 18856604:SG
+X-SG-EID: 
+ =?us-ascii?Q?WO3yfy31vHV92n9YsqoWQyxFlGr1e4EfbHSPP1dPRVinKCcg5MRMjgtx85B9qz?=
+ =?us-ascii?Q?DrLaf=2FPlDWiwV9uXqLBpVfMtbP2Lenkvr2kQuup?=
+ =?us-ascii?Q?jqtBtbV+jyZdJzvl8O9VoFsk2C1Gn3xKtFbHNN4?=
+ =?us-ascii?Q?YsYps5sxm60x3=2Fv3bVE2qrin6iwk9ixBdg3CAM7?=
+ =?us-ascii?Q?wmmwBvYtLPm7SvjjbQshtwCwM7Pqav4ReWu2JvP?=
+ =?us-ascii?Q?kJr6TJ=2FgW09Z5Su7tnDDYM3jQL5tjgqCoK=2FfkUj?=
+ =?us-ascii?Q?dTff2r1o7uiRrXZ4ib5Gw=3D=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb3uVLoHVKhDmq7Z2vdvg8fhqF8KiEbgWYUEwdOXxds?=
+ =?us-ascii?Q?maicI18zE8LqC94ni+7c2aX5O0H+TGzJ0DldZAF?=
+ =?us-ascii?Q?qVURl5OxOGbtpVYHjX9+05YCFL7+n5x6zfX3s0j?=
+ =?us-ascii?Q?Up6CZjfSjE79rDDU0EAi0zfO7ru=2FAOQdU4HCw=2Fd?=
+ =?us-ascii?Q?4SmlRrEMDEemR+dGwkHFH9qtJZCgAOtlUic3wlF?=
+ =?us-ascii?Q?qk2uJSvW92pBk2c=2Fc=3D?=
+To: rachel.jones@cosmicfusiontech.com
+X-Entity-ID: +TqYScLt1MclhZqzACgs9w==
+
+<!DOCTYPE html><html><head>
+<title>Namecheap</title>
+<meta charset=3D"utf-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+
+<style type=3D"text/css">
+
+ /* CUSTOM FONT */ =20
+	@import url('https://fonts.googleapis.com/css?family=3DOpen+Sans:400,600,7=
+00');
+
+/* iOS BLUE LINKS */
+a[x-apple-data-detectors] { color: inherit !important; text-decoration: non=
+e !important; font-size: inherit !important; font-family: inherit !importan=
+t; font-weight: inherit !important; line-height: inherit !important; }
+
+.btn_orange { background: #fd4f00; background-image: -webkit-linear-gradien=
+t(top, #FD4F00, #E03821); background-image: -moz-linear-gradient(top, #FD4F=
+00, #E03821); background-image: -ms-linear-gradient(top, #FD4F00, #E03821);=
+ background-image: -o-linear-gradient(top, #FD4F00, #E03821); background-im=
+age: linear-gradient(to bottom, #FD4F00, #E03821); }
+
+.btn_orange:hover { background: #fd4f00; background-image: -webkit-linear-g=
+radient(top, #e03b2e, #d02a2d); background-image: -moz-linear-gradient(top,=
+ #e03b2e, #d02a2d); background-image: -ms-linear-gradient(top, #e03b2e, #d0=
+2a2d); background-image: -o-linear-gradient(top, #e03b2e, #d02a2d); backgro=
+und-image: linear-gradient(to bottom, #e03b2e, #d02a2d); text-decoration: n=
+one; }
+   =20
+.btn_green { background: #89c0bf; background-image: -webkit-linear-gradient=
+(top, #89c0bf, #6f9897); background-image: -moz-linear-gradient(top, #89c0b=
+f, #6f9897); background-image: -ms-linear-gradient(top, #89c0bf, #6f9897); =
+background-image: -o-linear-gradient(top, #89c0bf, #6f9897); background-ima=
+ge: linear-gradient(to bottom, #89c0bf, #6f9897); text-decoration: none; }=20
+   =20
+.btn_green:hover { background: #3cb0fd; background-image: -webkit-linear-gr=
+adient(top, #3cb0fd, #3498db); background-image: -moz-linear-gradient(top, =
+#3cb0fd, #3498db); background-image: -ms-linear-gradient(top, #3cb0fd, #349=
+8db); background-image: -o-linear-gradient(top, #3cb0fd, #3498db); backgrou=
+nd-image: linear-gradient(to bottom, #3cb0fd, #3498db); text-decoration: no=
+ne; }
+
+u + #body a { color: inherit; text-decoration: none; font-size: inherit; fo=
+nt-family: inherit; font-weight: inherit; line-height: inherit; }=20
+   =20
+* { -webkit-text-size-adjust: none; -webkit-text-resize: 100%; text-resize:=
+ 100%; }
+   =20
+</style>=20
+<style type=3D"text/css">
+/* CLIENT-SPECIFIC STYLES */
+body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; }=20
+table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+img { -ms-interpolation-mode: bicubic; }=20
+img { border: 0; height: auto; line-height: 100%; outline: none; text-decor=
+ation: none; }=20
+table { border-collapse: collapse !important; }=20
+body { height: 100% !important; margin: 0 auto !important; padding: 0 !impo=
+rtant; width: 100% !important; }=20
+
+/* GMAIL ZOOM FIX */=20
+.gmailfix { display: none; display: none!important; }
+
+/* ANDROID CENTER FIX */
+div[style*=3D"margin: 16px 0;"] {
+	margin: 0 !important;}
+</style>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">
+a {text-decoration: none;}
+</style>
+<![endif]-->
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">
+body, table, td, a, span { font-family: Arial, Helvetica, sans-serif !impor=
+tant; }
+a {text-decoration: none;}
+<![endif]-->
+<!--[if mso]>
+<style type=3D"text/css">
+.fo { font-family: Arial, sans-serif; }
+</style>
+<![endif]-->
+</head>
+<body style=3D"Margin:0;padding:0; background: #F2F2F2;" bgcolor=3D"#F2F2F2=
+">
+
+<!--[if !mso]><!-->
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">7 DAY NOTI=
+CE: Important information about renewing your domain(s)</div>     =20
+   =20
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;</div>
+<!--<![endif]-->
+
+<table border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" bgco=
+lor=3D"#F2F2F2">
+  <tbody><tr>
+    <td align=3D"center" valign=3D"top" bgcolor=3D"#F2F2F2" style=3D"paddin=
+g:0px 0px 0px;"><!--[if (gte mso 9)|(IE)]>
+ <table width=3D"600" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0">
+ <tr>
+ <td>
+<![endif]-->
+<!-- HEADER START -->
+<table width=3D"600" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0">
+ <tbody><tr>
+ <td><table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+>
+ <tbody><tr>
+ <td><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+>
+ <tbody><tr>
+ <td width=3D"50%" align=3D"left"><table width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0">
+ <tbody><tr>
+ <td align=3D"left" style=3D"Margin: 0px; padding: 0px;" class=3D"logo-padd=
+ing"><a href=3D"http://mailtrackemailout1.namecheap.com/" target=3D"_blank"><img src=3D"https://raw.githubusercontent.com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/Namecheap-Logo-450x140px.png" al=
+t=3D"Namecheap" width=3D"225" height=3D"70" border=3D"0" style=3D"color:#de=
+3723; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 16=
+px; display: block; text-align:left;" class=3D"logo"></a></td>
+ </tr>
+ </tbody></table></td>
+ <td width=3D"50%"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" class=3D"mobile-hide">
+ <tbody><tr>
+                      <td align=3D"right" style=3D"color:#A4A4A4; font-size=
+:16px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; line-he=
+ight: 16px; padding: 22px 15px 4px 0px; text-decoration: none;"><a href=3D"=
+http://mailtrackemailout1.namecheap.com/" targ=
+et=3D"_blank" style=3D"color:#A4A4A4; text-decoration: none;">My Account</a=
+></td>
+                    </tr>
+ </tbody></table></td>
+ </tr>
+ </tbody></table></td>
+ </tr>
+ </tbody></table></td>
+ </tr>
+ </tbody></table>
+<!-- HEADLINE START -->
+      <table width=3D"600" border=3D"0" align=3D"center" cellpadding=3D"0" =
+cellspacing=3D"0" bgcolor=3D"#ffffff">
+        <tbody><tr>
+          <td bgcolor=3D"#5A6060"><table width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"10">
+            <tbody><tr>
+              <td align=3D"center" style=3D"font-family: 'Open Sans', Arial=
+, Helvetica,  sans-serif; font-size: 26px; font-weight: 600; color:#FFFFFF;=
+ padding: 20px 10px 20px 10px;" class=3D"renew_heading"><span class=3D"fo">=
+You've Only Got 7 Days Left</span></td>
+            </tr>
+          </tbody></table></td>
+        </tr>
+      </tbody></table>
+      <!-- HERO START -->
+      <table width=3D"600" border=3D"0" align=3D"center" cellpadding=3D"0" =
+cellspacing=3D"0" bgcolor=3D"#ffffff">
+        <tbody><tr>
+          <td bgcolor=3D"#FFFFFF" align=3D"center"><table width=3D"100%" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+              <tbody><tr>
+                <td align=3D"center" style=3D"padding: 24px 30px 18px 30px;=
+"><img src=3D"https://raw.githubusercontent.com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/2018_DP_Auto_Renewal_Emails_7_days_pre-expired.png" width=3D"200" height=
+=3D"134" border=3D"0" style=3D"display:block; max-height:134px; max-width:2=
+00px; width:100%;" class=3D"img-fluid"></td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table>
+<!-- INTRO START -->
+      <table align=3D"center" border=3D"0" width=3D"600" cellpadding=3D"0" =
+cellspacing=3D"0" bgcolor=3D"#ffffff">
+        <tbody><tr>
+          <td bgcolor=3D"#FFFFFF" align=3D"center"><table width=3D"100%" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+              <tbody><tr>
+                <td align=3D"left" style=3D"color:#4A4A4A; font-family: Ari=
+al, Helvetica,  sans-serif; font-size: 15px; line-height: 24px; -ms-word-br=
+eak: break-all ; word-break: break-all; word-break: break-word; -webkit-hyp=
+hens: auto; -moz-hyphens: auto; hyphens: auto; padding: 0px 40px 15px 40px;=
+" class=3D"salutation_padding"><strong>Hi Rachel,</strong></td>
+              </tr>
+              <tr>
+              <td style=3D"color:#4A4A4A; font-family: Arial, Helvetica,  s=
+ans-serif; font-size: 15px; line-height: 24px; padding: 0px 40px 0px 40px;"=
+ class=3D"last-padding">One or more of your domains will expire in 7 days. =
+Luckily, it's easy to renew just by clicking the button below.</td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table>
+      <table align=3D"center" border=3D"0" width=3D"600" cellpadding=3D"0" =
+cellspacing=3D"0" bgcolor=3D"#ffffff">
+        <tbody><tr>
+          <td bgcolor=3D"#FFFFFF" align=3D"center"><table width=3D"100%" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+              <tbody><tr>
+                <td style=3D"padding: 24px 20px 34px 20px;"><table width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                  <tbody><tr>
+                    <td align=3D"center"><table border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+              <tbody><tr>
+                <td align=3D"center" style=3D"-webkit-border-radius: 4px; -=
+moz-border-radius: 4px; border-radius: 4px;" bgcolor=3D"#fd4f00" class=3D"b=
+tn_orange"><a href=3D"http://mailtrackemailout1.namecheap.com/" target=3D"_blank" style=3D"font-size: 18px;=
+ font-family: Arial, Helvetica, sans-serif; color: #ffffff; text-decoration=
+: none; font-style: normal; font-weight: 700; -webkit-border-radius: 4px; -=
+moz-border-radius: 4px; border-radius: 4px; padding: 8px 18px 9px 18px; bor=
+der: 1px solid #e0452f; display: inline-block;" class=3D"btn">Renew Now</a>=
+</td>
+                </tr>
+      </tbody></table></td>
+                  </tr>
+                </tbody></table></td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table>
+<!--  -->
+      <!-- PACKAGE DETAILS -->
+      <table align=3D"center" border=3D"0" width=3D"600" cellpadding=3D"0" =
+cellspacing=3D"0" bgcolor=3D"#ffffff">
+        <tbody><tr>
+          <td bgcolor=3D"#FFFFFF" align=3D"center"><table width=3D"100%" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+              <tbody><tr>
+                  <td align=3D"left" style=3D"color:#4A4A4A; font-family: '=
+Open Sans', Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 600=
+; padding: 0px 40px 18px 40px;" class=3D"renew_subheading"><span class=3D"f=
+o">Domain(s) Due for Renewal on <a href=3D"" target=3D"_blank" style=3D"col=
+or:#4A4A4A; text-decoration:none;">December 14, 2023</a></span></td>
+              </tr>
+              <tr>
+                <td style=3D"padding: 0px 40px 30px 40px;" class=3D"package=
+-padding">
+                  <table width=3D"100%" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0">
+                    <tbody><tr>=20
+                      <td bgcolor=3D"#dcdcdc" style=3D"padding: 0px;">
+                       =20
+                      <table width=3D"520" border=3D"1" cellpadding=3D"4" c=
+ellspacing=3D"1">
+                        <tbody><tr>
+                          <td width=3D"260" align=3D"center" bgcolor=3D"#f3=
+f3f3" style=3D"border: 1px solid #dcdcdc; color:#4A4A4A; font-family: Arial=
+, Helvetica, sans-serif; font-size: 13px; font-weight: 700; line-height: 22=
+px; padding: 10px 0px 10px 0px; width: 260px;">Name</td>
+                          <td width=3D"140" align=3D"center" bgcolor=3D"#f3=
+f3f3" style=3D"border: 1px solid #dcdcdc; color:#4A4A4A; font-family: Arial=
+, Helvetica, sans-serif; font-size: 13px; font-weight: 700; line-height: 22=
+px; padding: 10px 0px 10px 0px; width: 130px;">Auto-Renewal</td>
+                          <td width=3D"140" align=3D"center" bgcolor=3D"#f3=
+f3f3" style=3D"border: 1px solid #dcdcdc; color:#4A4A4A; font-family: Arial=
+, Helvetica, sans-serif; font-size: 13px; font-weight: 700; line-height: 22=
+px; padding: 10px 0px 10px 0px; width: 130px;">Price</td>
+                        </tr><!--  -->
+                        <tr>
+                          <td align=3D"center" bgcolor=3D"#FFFFFF" style=3D=
+"border: 1px solid #dcdcdc; color:#4A4A4A; font-family: Arial, Helvetica, s=
+ans-serif; font-size: 13px; font-weight: 600; line-height: 22px; padding: 1=
+0px 0px 10px 0px;"><a href=3D"" style=3D"color:#4A4A4A; text-decoration: no=
+ne;">cosmicfusiontech.com
+                              </a></td>
+                          <td align=3D"center" bgcolor=3D"#FFFFFF" style=3D=
+"border: 1px solid #dcdcdc; color:#4A4A4A; font-family: Arial, Helvetica, s=
+ans-serif; font-size: 13px; font-weight: 600; line-height: 22px; padding: 1=
+0px 0px 10px 0px;">-</td>
+                          <td align=3D"center" bgcolor=3D"#FFFFFF" style=3D=
+"border: 1px solid #dcdcdc; color:#4A4A4A; font-family: Arial, Helvetica, s=
+ans-serif; font-size: 13px; font-weight: 600; line-height: 22px; padding: 1=
+0px 0px 10px 0px;">$47.98</td>
+                        </tr><!--  -->
+                        <!--  -->
+                          </tbody></table></td>
+                    </tr>
+<!--  -->
+                  </tbody></table>
+                </td>
+              </tr>
+<!--  -->
+            </tbody></table></td>
+        </tr>
+      </tbody></table>
+        <table align=3D"center" border=3D"0" width=3D"600" cellpadding=3D"0=
+" cellspacing=3D"0" bgcolor=3D"#ffffff">
+        <tbody><tr>
+          <td bgcolor=3D"#FFFFFF" align=3D"center"><table width=3D"100%" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+              <tbody><tr>
+                  <td style=3D"color:#4A4A4A; font-family: Arial, Helvetica=
+,  sans-serif; font-size: 15px; line-height: 24px; padding: 0px 40px 30px 4=
+0px;" class=3D"last-padding">If a domain is not renewed on time, it will en=
+ter the Redemption Grace Period. During this time your domain will stop wor=
+king, and no changes can be made to the domain.</td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table>=20
+<!-- Transfer -->
+<!--  -->
+<!--  -->  =20
+<table align=3D"center" border=3D"0" width=3D"600" cellpadding=3D"0" cellsp=
+acing=3D"0" bgcolor=3D"#ffffff">
+        <tbody><tr>
+          <td bgcolor=3D"#FFFFFF" align=3D"center"><table width=3D"100%" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+            <tbody><tr>
+              <td style=3D"padding: 30px 30px 0px 30px;"><table width=3D"10=
+0%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                <tbody><tr>
+                  <td>
+                      <table width=3D"180" border=3D"0" align=3D"left" cell=
+padding=3D"0" cellspacing=3D"0">
+                    <tbody><tr>
+                      <td align=3D"center" valign=3D"top" style=3D"padding-=
+bottom: 5px;"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0">
+                        <tbody><tr>
+                          <td align=3D"center"><a href=3D"http://mailtracke=
+mailout1.namecheap.com/" target=3D"_blank"><img sr=
+c=3D"https://raw.githubusercontent.com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/icon-why-namecheap.png" alt=3D"" border=3D"0" width=3D"62" height=3D"55" style=3D=
+"font-family: Arial, Helvetica, sans-serif; font-size: 20px; color:#5c2f91;=
+ font-style:normal; text-align:center;"></a></td>
+                          </tr>
+                        <tr>
+                          <td align=3D"center" style=3D"font-family: Arial,=
+ Helvetica, sans-serif; font-size: 15px; line-height:20px; font-weight:700;=
+ color:#7B7676; padding: 18px 15px 25px 15px;"><a style=3D"color:#7B7676;; =
+text-decoration: none;" href=3D"http://mailtrackemailout1.namecheap.com/" target=3D"_blank">WHY NAMECHEAP</a></td>
+                        </tr>
+                        </tbody></table></td>
+                      </tr>
+                    </tbody></table>
+                    <!--[if mso]></td><td><![endif]-->
+                    <table width=3D"180" border=3D"0" align=3D"right" cellp=
+adding=3D"0" cellspacing=3D"0">
+                      <tbody><tr>
+                        <td align=3D"center" valign=3D"top" style=3D"paddin=
+g-bottom: 5px;"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0">
+                          <tbody><tr>
+                            <td align=3D"center" valign=3D"middle"><a href=
+=3D"http://mailtrackemailout1.namecheap.com/" target=3D"_blank"><img src=3D"https://raw.githubusercontent.com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/icon-account-login.png" alt=3D"" border=3D"0" width=3D=
+"56" height=3D"55" style=3D"font-family: Arial, Helvetica, sans-serif; font=
+-size: 20px; color:#5c2f91; font-style:normal; text-align:center;"></a></td=
+>
+                            </tr>
+                          <tr>
+                            <td align=3D"center" style=3D"font-family: Aria=
+l, Helvetica, sans-serif; font-size: 15px; line-height:20px; font-weight:70=
+0; color:#7B7676; padding: 18px 15px 25px 15px;"><a style=3D"color:#7B7676;=
+; text-decoration: none;" href=3D"http://mailtrackemailout1.namecheap.com/" target=3D"_blank">MY ACCOUNT</a></td>
+                          </tr>
+                          </tbody></table></td>
+                        </tr>
+                      </tbody></table>
+                    <!--[if mso]></td><td><![endif]-->
+                    <table width=3D"180" border=3D"0" align=3D"right" cellp=
+adding=3D"0" cellspacing=3D"0">
+                      <tbody><tr>
+                        <td align=3D"center" valign=3D"top" style=3D"paddin=
+g-bottom: 5px;"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0">
+                          <tbody><tr>
+                            <td align=3D"center" valign=3D"middle"><a href=
+=3D"http://mailtrackemailout1.namecheap.com/" target=
+=3D"_blank"><img src=3D"https://raw.githubusercontent.com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/icon-how-renew.png" alt=3D"" border=3D"0" width=3D"55" height=
+=3D"55" style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 20px=
+; color:#5c2f91; font-style:normal; text-align:center;"></a></td>
+                            </tr>
+                          <tr>
+                            <td align=3D"center" style=3D"font-family: Aria=
+l, Helvetica, sans-serif; font-size: 15px; line-height:20px; font-weight:70=
+0; color:#7B7676; padding: 18px 15px 25px 15px;"><a style=3D"color:#7B7676;=
+; text-decoration: none;" href=3D"http://mailtrackemailout1.namecheap.com/" target=3D"_blank">HOW TO RENEW</a></td>
+                          </tr>
+                          </tbody></table></td>
+                        </tr>
+                      </tbody></table>
+					 </td>
+                  </tr>
+                </tbody></table></td>
+            </tr>
+          </tbody></table></td>
+        </tr>
+      </tbody></table>
+ <!-- FOOTER START -->
+    <table width=3D"600" border=3D"0" align=3D"center" cellpadding=3D"0" ce=
+llspacing=3D"0">=20
+<!--  -->
+        <tr>
+            <td bgcolor=3D"#F2F2F2">
+                <table width=3D"100%" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"width:100%">
+                    <tbody><tr>
+    <td align=3D"center" bgcolor=3D"#F2F2F2" style=3D"color: #A4A4A4; font-=
+family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; p=
+adding: 30px 20px 6px 20px;"><a href=3D"http://mailtrackemailout1.namecheap=
+.com/" target=3D"_blank" style=3D"text-decoration:underline; color:#A4A4=
+A4;">About Us</a> | <a href=3D"http://mailtrackemailout1.namecheap.com/" targe=
+t=3D"_blank" style=3D"text-decoration:underline; color:#A4A4A4;">Support</a=
+> | <a href=3D"http://mailtrackemailout1.namecheap.com/" target=3D"_blank" style=3D"text-decoration:u=
+nderline; color:#A4A4A4;">Privacy Policy</a> | <a href=3D"http://mailtracke=
+mailout1.namecheap.com/" target=3D"_blank" style=3D"text-decoration:underline; color:#=
+A4A4A4;">Terms &amp; Conditions</a>&nbsp;|&nbsp;<a href=3D"http://mailtrack=
+emailout1.namecheap.com/" target=3D"_b=
+lank" style=3D"text-decoration:underline; color:#A4A4A4;">Account Login</a>=
+</td>
+  </tr>
+   <tr>
+										    <td align=3D"center" bgcolor=3D"#F2F2F2" style=3D"color: #A4A=
+4A4; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-heigh=
+t: 18px; padding: 10px 20px 0px 20px;"><a href=3D"" target=3D"_blank" style=
+=3D"color:#A4A4A4; text-decoration:none;">4600 East Washington Street, Suit=
+e 305, Phoenix,&nbsp;AZ&nbsp;85034,&nbsp;USA</a></td>
+									      </tr>
+  <tr>
+    <td align=3D"center" bgcolor=3D"#F2F2F2" style=3D"color:#A4A4A4; font-f=
+amily: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; te=
+xt-decoration: none; padding: 0px 20px 25px 20px;">Copyright =A9 2023 <a hr=
+ef=3D"http://mailtrackemailout1.namecheap.com/" target=3D"_blank" style=3D"text-de=
+coration:none; color:#A4A4A4;">Namecheap.com</a></td>
+  </tr>
+        <tr>
+    <td align=3D"center" bgcolor=3D"#F2F2F2" style=3D"padding: 0px 20px 25p=
+x 20px;"><a href=3D"http://mailtrackemailout1.namecheap.com/" target=3D"_blank">=
+<img src=3D"https://raw.githubusercontent.com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/Namecheap-N-100x56.png" height=3D"22" width=3D"40" border=3D"0" style=3D"display: block;"><=
+/a></td>
+ </tr>
+									=09
+									</tbody></table>
+									</td>
+								</tr>
+						=09
+						</tbody></table>
+      <!--[if (gte mso 9)|(IE)]>
+ </td>
+ </tr>
+ </table>
+<![endif]-->=20
+    </td>
+  </tr>
+</tbody></table>
+<div style=3D"display:none; white-space:nowrap; font:15px courier; line-hei=
+ght:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+
+<img src=3D"http://mailtrackemailout1.namecheap.com/" alt=
+=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;=
+width:1px !important;border-width:0 !important;margin-top:0 !important;marg=
+in-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;p=
+adding-top:0 !important;padding-bottom:0 !important;padding-right:0 !import=
+ant;padding-left:0 !important;"/></body></html>

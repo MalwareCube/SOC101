@@ -1,0 +1,2952 @@
+[
+  {
+    "event": {
+      "DIRECTORY_LIST": [
+        {
+          "ACCESS_TIME": 1719266091652,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719266080700,
+          "FILE_NAME": "TCPView.zip",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\TCPView.zip",
+          "FILE_SIZE": 1604604,
+          "MODIFICATION_TIME": 1719266082147,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 1604604
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 129
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1719415466498,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719266125761,
+          "FILE_NAME": "TCPView",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\TCPView",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719266126184
+        },
+        {
+          "ACCESS_TIME": 1719539062685,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719539047223,
+          "FILE_NAME": "Sysmon.zip",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\Sysmon.zip",
+          "FILE_SIZE": 4858922,
+          "MODIFICATION_TIME": 1719539049171,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 4858922
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 128
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1720588313458,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719539066155,
+          "FILE_NAME": "Sysmon",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\Sysmon",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719539357804
+        },
+        {
+          "ACCESS_TIME": 1719271736269,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719271724609,
+          "FILE_NAME": "ProcessExplorer.zip",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\ProcessExplorer.zip",
+          "FILE_SIZE": 3459165,
+          "MODIFICATION_TIME": 1719271725646,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 3459165
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 137
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1719415466498,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719271741049,
+          "FILE_NAME": "ProcessExplorer",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\ProcessExplorer",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719271741195
+        },
+        {
+          "ACCESS_TIME": 1720587205922,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719263979197,
+          "FILE_NAME": "notmalware.exe",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\notmalware.exe",
+          "FILE_SIZE": 73802,
+          "MODIFICATION_TIME": 1719264056992,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 73802
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1720588309006,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1720495199929,
+          "FILE_NAME": "mimikatz.exe",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\mimikatz.exe",
+          "FILE_SIZE": 1250056,
+          "MODIFICATION_TIME": 1720495706157,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 1250056
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 55
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1720587850823,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1720587849667,
+          "FILE_NAME": "hcp_win_x64_release_4.29.3.exe",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\hcp_win_x64_release_4.29.3.exe",
+          "FILE_SIZE": 780080,
+          "MODIFICATION_TIME": 1720587850823,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 780080
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 164
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1719534219254,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719264999524,
+          "FILE_NAME": "exfil",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\exfil",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719264999524
+        },
+        {
+          "ACCESS_TIME": 1720587260843,
+          "ATTRIBUTES": 42,
+          "CREATION_TIME": 1715613593434,
+          "FILE_NAME": "desktop.ini",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\desktop.ini",
+          "FILE_SIZE": 282,
+          "MODIFICATION_TIME": 1715613593449,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 282
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1720495841259,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719278069189,
+          "FILE_NAME": "baseline",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\baseline",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719534592830
+        },
+        {
+          "ACCESS_TIME": 1719432485651,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719432481607,
+          "FILE_NAME": "Autoruns.zip",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\Autoruns.zip",
+          "FILE_SIZE": 2932380,
+          "MODIFICATION_TIME": 1719432483344,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 2932380
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 130
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1719534489798,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719277526777,
+          "FILE_NAME": "AutoRuns.psm1",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\AutoRuns.psm1",
+          "FILE_SIZE": 165905,
+          "MODIFICATION_TIME": 1719277531658,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 165905
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 55
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1720588313490,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719432489562,
+          "FILE_NAME": "Autoruns",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\Autoruns",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719432490505
+        }
+      ],
+      "DIRECTORY_LIST_DEPTH": 0,
+      "DIRECTORY_PATH": "c:\\Users\\tcm\\Downloads",
+      "FILE_PATH": "*"
+    },
+    "routing": {
+      "arch": 2,
+      "did": "",
+      "event_id": "1c6b66d1-a9cb-4f77-a5c6-1ce46d96aad8",
+      "event_time": 1720588623018,
+      "event_type": "DIR_LIST_REP",
+      "ext_ip": "192.168.1.9",
+      "hostname": "desktop-c6oj5nl.net.example.com",
+      "iid": "f02a8078-5960-4db0-9dd8-69fcac1e1df9",
+      "int_ip": "192.168.1.9",
+      "investigation_id": "0dcf3537-f164-4da8-9e2b-39344101953c",
+      "moduleid": 2,
+      "oid": "1b6c5df7-ef3b-4521-bad6-f1f0ac9c13aa",
+      "plat": 268435456,
+      "sid": "00b9df07-c52f-4140-a193-1405679ee5c9",
+      "tags": [
+        "windows",
+        "workstations"
+      ],
+      "this": "77797ec4a4c0047a07107af4668e194f"
+    },
+    "ts": "2024-07-10 05:17:03"
+  },
+  {
+    "event": {
+      "DIRECTORY_LIST": [
+        {
+          "ACCESS_TIME": 1719266091652,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719266080700,
+          "FILE_NAME": "TCPView.zip",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\TCPView.zip",
+          "FILE_SIZE": 1604604,
+          "MODIFICATION_TIME": 1719266082147,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 1604604
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 129
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1719415466498,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719266125761,
+          "FILE_NAME": "TCPView",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\TCPView",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719266126184
+        },
+        {
+          "ACCESS_TIME": 1719539062685,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719539047223,
+          "FILE_NAME": "Sysmon.zip",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\Sysmon.zip",
+          "FILE_SIZE": 4858922,
+          "MODIFICATION_TIME": 1719539049171,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 4858922
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 128
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1720588313458,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719539066155,
+          "FILE_NAME": "Sysmon",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\Sysmon",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719539357804
+        },
+        {
+          "ACCESS_TIME": 1719271736269,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719271724609,
+          "FILE_NAME": "ProcessExplorer.zip",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\ProcessExplorer.zip",
+          "FILE_SIZE": 3459165,
+          "MODIFICATION_TIME": 1719271725646,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 3459165
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 137
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1719415466498,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719271741049,
+          "FILE_NAME": "ProcessExplorer",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\ProcessExplorer",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719271741195
+        },
+        {
+          "ACCESS_TIME": 1720587205922,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719263979197,
+          "FILE_NAME": "notmalware.exe",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\notmalware.exe",
+          "FILE_SIZE": 73802,
+          "MODIFICATION_TIME": 1719264056992,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 73802
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1720588309006,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1720495199929,
+          "FILE_NAME": "mimikatz.exe",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\mimikatz.exe",
+          "FILE_SIZE": 1250056,
+          "MODIFICATION_TIME": 1720495706157,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 1250056
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 55
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1720587850823,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1720587849667,
+          "FILE_NAME": "hcp_win_x64_release_4.29.3.exe",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\hcp_win_x64_release_4.29.3.exe",
+          "FILE_SIZE": 780080,
+          "MODIFICATION_TIME": 1720587850823,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 780080
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 164
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1719534219254,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719264999524,
+          "FILE_NAME": "exfil",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\exfil",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719264999524
+        },
+        {
+          "ACCESS_TIME": 1720587260843,
+          "ATTRIBUTES": 42,
+          "CREATION_TIME": 1715613593434,
+          "FILE_NAME": "desktop.ini",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\desktop.ini",
+          "FILE_SIZE": 282,
+          "MODIFICATION_TIME": 1715613593449,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 282
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1720495841259,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719278069189,
+          "FILE_NAME": "baseline",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\baseline",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719534592830
+        },
+        {
+          "ACCESS_TIME": 1719432485651,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719432481607,
+          "FILE_NAME": "Autoruns.zip",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\Autoruns.zip",
+          "FILE_SIZE": 2932380,
+          "MODIFICATION_TIME": 1719432483344,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 2932380
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 130
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1719534489798,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719277526777,
+          "FILE_NAME": "AutoRuns.psm1",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\AutoRuns.psm1",
+          "FILE_SIZE": 165905,
+          "MODIFICATION_TIME": 1719277531658,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 165905
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 55
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1720588313490,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719432489562,
+          "FILE_NAME": "Autoruns",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\Autoruns",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719432490505
+        }
+      ],
+      "DIRECTORY_LIST_DEPTH": 0,
+      "DIRECTORY_PATH": "c:\\Users\\tcm\\Downloads",
+      "FILE_PATH": "*"
+    },
+    "routing": {
+      "arch": 2,
+      "did": "",
+      "event_id": "5cf7f34a-173c-4945-9775-c53502f36377",
+      "event_time": 1720588653644,
+      "event_type": "DIR_LIST_REP",
+      "ext_ip": "192.168.1.9",
+      "hostname": "desktop-c6oj5nl.net.example.com",
+      "iid": "f02a8078-5960-4db0-9dd8-69fcac1e1df9",
+      "int_ip": "192.168.1.9",
+      "investigation_id": "7a17ab85-fbd8-4124-85a7-13531b6e470b",
+      "moduleid": 2,
+      "oid": "1b6c5df7-ef3b-4521-bad6-f1f0ac9c13aa",
+      "plat": 268435456,
+      "sid": "00b9df07-c52f-4140-a193-1405679ee5c9",
+      "tags": [
+        "windows",
+        "workstations"
+      ],
+      "this": "f2da7e119e212b1609a10854668e196d"
+    },
+    "ts": "2024-07-10 05:17:33"
+  },
+  {
+    "event": {
+      "DIRECTORY_LIST": [
+        {
+          "ACCESS_TIME": 1720588678641,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1720588677397,
+          "FILE_NAME": "Unconfirmed 93210.crdownload",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\Unconfirmed 93210.crdownload",
+          "FILE_SIZE": 73802,
+          "MODIFICATION_TIME": 1720588678641,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 73802
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1719266091652,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719266080700,
+          "FILE_NAME": "TCPView.zip",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\TCPView.zip",
+          "FILE_SIZE": 1604604,
+          "MODIFICATION_TIME": 1719266082147,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 1604604
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 129
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1719415466498,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719266125761,
+          "FILE_NAME": "TCPView",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\TCPView",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719266126184
+        },
+        {
+          "ACCESS_TIME": 1719539062685,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719539047223,
+          "FILE_NAME": "Sysmon.zip",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\Sysmon.zip",
+          "FILE_SIZE": 4858922,
+          "MODIFICATION_TIME": 1719539049171,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 4858922
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 128
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1720588313458,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719539066155,
+          "FILE_NAME": "Sysmon",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\Sysmon",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719539357804
+        },
+        {
+          "ACCESS_TIME": 1719271736269,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719271724609,
+          "FILE_NAME": "ProcessExplorer.zip",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\ProcessExplorer.zip",
+          "FILE_SIZE": 3459165,
+          "MODIFICATION_TIME": 1719271725646,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 3459165
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 137
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1719415466498,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719271741049,
+          "FILE_NAME": "ProcessExplorer",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\ProcessExplorer",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719271741195
+        },
+        {
+          "ACCESS_TIME": 1720587205922,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719263979197,
+          "FILE_NAME": "notmalware.exe",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\notmalware.exe",
+          "FILE_SIZE": 73802,
+          "MODIFICATION_TIME": 1719264056992,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 73802
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1720588309006,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1720495199929,
+          "FILE_NAME": "mimikatz.exe",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\mimikatz.exe",
+          "FILE_SIZE": 1250056,
+          "MODIFICATION_TIME": 1720495706157,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 1250056
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 55
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1720587850823,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1720587849667,
+          "FILE_NAME": "hcp_win_x64_release_4.29.3.exe",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\hcp_win_x64_release_4.29.3.exe",
+          "FILE_SIZE": 780080,
+          "MODIFICATION_TIME": 1720587850823,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 780080
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 164
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1719534219254,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719264999524,
+          "FILE_NAME": "exfil",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\exfil",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719264999524
+        },
+        {
+          "ACCESS_TIME": 1720587260843,
+          "ATTRIBUTES": 42,
+          "CREATION_TIME": 1715613593434,
+          "FILE_NAME": "desktop.ini",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\desktop.ini",
+          "FILE_SIZE": 282,
+          "MODIFICATION_TIME": 1715613593449,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 282
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1720495841259,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719278069189,
+          "FILE_NAME": "baseline",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\baseline",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719534592830
+        },
+        {
+          "ACCESS_TIME": 1719432485651,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719432481607,
+          "FILE_NAME": "Autoruns.zip",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\Autoruns.zip",
+          "FILE_SIZE": 2932380,
+          "MODIFICATION_TIME": 1719432483344,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 2932380
+            },
+            {
+              "FILE_NAME": ":SmartScreen:$DATA",
+              "SIZE": 7
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 130
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1719534489798,
+          "ATTRIBUTES": 32,
+          "CREATION_TIME": 1719277526777,
+          "FILE_NAME": "AutoRuns.psm1",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\AutoRuns.psm1",
+          "FILE_SIZE": 165905,
+          "MODIFICATION_TIME": 1719277531658,
+          "STREAMS": [
+            {
+              "FILE_NAME": "::$DATA",
+              "SIZE": 165905
+            },
+            {
+              "FILE_NAME": ":Zone.Identifier:$DATA",
+              "SIZE": 55
+            }
+          ]
+        },
+        {
+          "ACCESS_TIME": 1720588313490,
+          "ATTRIBUTES": 1,
+          "CREATION_TIME": 1719432489562,
+          "FILE_NAME": "Autoruns",
+          "FILE_PATH": "c:\\Users\\tcm\\Downloads\\Autoruns",
+          "FILE_SIZE": 0,
+          "MODIFICATION_TIME": 1719432490505
+        }
+      ],
+      "DIRECTORY_LIST_DEPTH": 0,
+      "DIRECTORY_PATH": "c:\\Users\\tcm\\Downloads",
+      "FILE_PATH": "*"
+    },
+    "routing": {
+      "arch": 2,
+      "did": "",
+      "event_id": "a07e7e32-e2e6-4b44-b542-5f656e4cf956",
+      "event_time": 1720588683985,
+      "event_type": "DIR_LIST_REP",
+      "ext_ip": "192.168.1.9",
+      "hostname": "desktop-c6oj5nl.net.example.com",
+      "iid": "f02a8078-5960-4db0-9dd8-69fcac1e1df9",
+      "int_ip": "192.168.1.9",
+      "investigation_id": "e8952b7a-fab4-4d3b-85a9-a953e70ff83f",
+      "moduleid": 2,
+      "oid": "1b6c5df7-ef3b-4521-bad6-f1f0ac9c13aa",
+      "plat": 268435456,
+      "sid": "00b9df07-c52f-4140-a193-1405679ee5c9",
+      "tags": [
+        "windows",
+        "workstations"
+      ],
+      "this": "4d7cfc22916558d9b8524edc668e198b"
+    },
+    "ts": "2024-07-10 05:18:03"
+  },
+  {
+    "event": {
+      "BASE_ADDRESS": 140695972675584,
+      "COMMAND_LINE": "mimikatz.exe",
+      "FILE_IS_SIGNED": 1,
+      "FILE_PATH": "C:\\Users\\tcm\\Downloads\\mimikatz.exe",
+      "HASH": "92804faaab2175dc501d73e814663058c78c0a042675a8937266357bcfb96c50",
+      "MEMORY_USAGE": 9322496,
+      "PARENT": {
+        "BASE_ADDRESS": 140699238662144,
+        "COMMAND_LINE": "\"C:\\Windows\\system32\\cmd.exe\" ",
+        "FILE_IS_SIGNED": 1,
+        "FILE_PATH": "C:\\Windows\\system32\\cmd.exe",
+        "HASH": "badf4752413cb0cbdc03fb95820ca167f0cdc63b597ccdb5ef43111180e088b0",
+        "MEMORY_USAGE": 4354048,
+        "PARENT_ATOM": "223290f2013a19ab33f84049668e1743",
+        "PARENT_PROCESS_ID": 7028,
+        "PROCESS_ID": 1948,
+        "THIS_ATOM": "aae2fd84c3b0dd864492570c668e1b34",
+        "THREADS": 2,
+        "TIMESTAMP": 1720589108724,
+        "USER_NAME": "DESKTOP-C6OJ5NL\\tcm"
+      },
+      "PARENT_PROCESS_ID": 1948,
+      "PROCESS_ID": 3532,
+      "THREADS": 2,
+      "USER_NAME": "DESKTOP-C6OJ5NL\\tcm"
+    },
+    "routing": {
+      "arch": 2,
+      "did": "",
+      "event_id": "9f34c375-8841-4d01-b392-1e760072dd3a",
+      "event_time": 1720589227286,
+      "event_type": "NEW_PROCESS",
+      "ext_ip": "192.168.1.9",
+      "hostname": "desktop-c6oj5nl.net.example.com",
+      "iid": "f02a8078-5960-4db0-9dd8-69fcac1e1df9",
+      "int_ip": "192.168.1.9",
+      "moduleid": 2,
+      "oid": "1b6c5df7-ef3b-4521-bad6-f1f0ac9c13aa",
+      "parent": "aae2fd84c3b0dd864492570c668e1b34",
+      "plat": 268435456,
+      "sid": "00b9df07-c52f-4140-a193-1405679ee5c9",
+      "tags": [
+        "windows",
+        "workstations"
+      ],
+      "this": "1f89cc8078888206eac0c23e668e1bab"
+    },
+    "ts": "2024-07-10 05:27:07"
+  },
+  {
+    "event": {
+      "ACCESS_TIME": 1720588309006,
+      "ATTRIBUTES": 0,
+      "CREATION_TIME": 1720495199929,
+      "ERROR": 0,
+      "FILE_INFO": "2.2.0.0",
+      "FILE_PATH": "C:\\Users\\tcm\\Downloads\\mimikatz.exe",
+      "FILE_SIZE": 1250056,
+      "HASH": "92804faaab2175dc501d73e814663058c78c0a042675a8937266357bcfb96c50",
+      "HASH_MD5": "e930b05efe23891d19bc354a4209be3e",
+      "HASH_SHA1": "d1f7832035c3e8a73cc78afd28cfd7f4cece6d20",
+      "MODIFICATION_TIME": 1720495706157,
+      "ORIGINAL_FILE_NAME": "mimikatz.exe",
+      "SIGNATURE": {
+        "CERT_ISSUER": "C=PL, O=Unizeto Technologies S.A., OU=Certum Certification Authority, CN=Certum Code Signing CA SHA2",
+        "CERT_SUBJECT": "C=FR, L=Montreuil, O=Open Source Developer, CN=\"Open Source Developer, Benjamin Delpy\", E=benjamin@gentilkiwi.com",
+        "FILE_CERT_IS_VERIFIED_LOCAL": 1,
+        "FILE_IS_SIGNED": 1,
+        "FILE_PATH": "C:\\Users\\tcm\\Downloads\\mimikatz.exe"
+      }
+    },
+    "routing": {
+      "arch": 2,
+      "did": "",
+      "event_id": "51f4c87b-4059-4d44-b9ef-385759909097",
+      "event_time": 1720589227552,
+      "event_type": "CODE_IDENTITY",
+      "ext_ip": "192.168.1.9",
+      "hostname": "desktop-c6oj5nl.net.example.com",
+      "iid": "f02a8078-5960-4db0-9dd8-69fcac1e1df9",
+      "int_ip": "192.168.1.9",
+      "moduleid": 2,
+      "oid": "1b6c5df7-ef3b-4521-bad6-f1f0ac9c13aa",
+      "parent": "1f89cc8078888206eac0c23e668e1bab",
+      "plat": 268435456,
+      "sid": "00b9df07-c52f-4140-a193-1405679ee5c9",
+      "tags": [
+        "windows",
+        "workstations"
+      ],
+      "this": "415dc51102b1612a1b5a69b7668e1bac"
+    },
+    "ts": "2024-07-10 05:27:07"
+  },
+  {
+    "event": {
+      "BASE_ADDRESS": 140695972675584,
+      "COMMAND_LINE": "mimikatz.exe",
+      "FILE_IS_SIGNED": 1,
+      "FILE_PATH": "C:\\Users\\tcm\\Downloads\\mimikatz.exe",
+      "HASH": "92804faaab2175dc501d73e814663058c78c0a042675a8937266357bcfb96c50",
+      "MEMORY_USAGE": 8724480,
+      "PARENT": {
+        "BASE_ADDRESS": 140699238662144,
+        "COMMAND_LINE": "\"C:\\Windows\\system32\\cmd.exe\" ",
+        "FILE_IS_SIGNED": 1,
+        "FILE_PATH": "C:\\Windows\\system32\\cmd.exe",
+        "HASH": "badf4752413cb0cbdc03fb95820ca167f0cdc63b597ccdb5ef43111180e088b0",
+        "MEMORY_USAGE": 4354048,
+        "PARENT_ATOM": "223290f2013a19ab33f84049668e1743",
+        "PARENT_PROCESS_ID": 7028,
+        "PROCESS_ID": 1948,
+        "THIS_ATOM": "aae2fd84c3b0dd864492570c668e1b34",
+        "THREADS": 2,
+        "TIMESTAMP": 1720589108724,
+        "USER_NAME": "DESKTOP-C6OJ5NL\\tcm"
+      },
+      "PARENT_PROCESS_ID": 1948,
+      "PROCESS_ID": 6840,
+      "THREADS": 2,
+      "USER_NAME": "DESKTOP-C6OJ5NL\\tcm"
+    },
+    "routing": {
+      "arch": 2,
+      "did": "",
+      "event_id": "ea0cebe9-8080-4f5c-95a4-a9a2d7802785",
+      "event_time": 1720589520394,
+      "event_type": "NEW_PROCESS",
+      "ext_ip": "192.168.1.9",
+      "hostname": "desktop-c6oj5nl.net.example.com",
+      "iid": "f02a8078-5960-4db0-9dd8-69fcac1e1df9",
+      "int_ip": "192.168.1.9",
+      "moduleid": 2,
+      "oid": "1b6c5df7-ef3b-4521-bad6-f1f0ac9c13aa",
+      "parent": "aae2fd84c3b0dd864492570c668e1b34",
+      "plat": 268435456,
+      "sid": "00b9df07-c52f-4140-a193-1405679ee5c9",
+      "tags": [
+        "windows",
+        "workstations"
+      ],
+      "this": "50f29004e5021c5258c2d145668e1cd0"
+    },
+    "ts": "2024-07-10 05:32:00"
+  },
+  {
+    "event": {
+      "EVENTS": [
+        {
+          "event": {
+            "BASE_ADDRESS": 140699514044416,
+            "COMMAND_LINE": "C:\\Windows\\system32\\lsass.exe",
+            "CREATION_TIME": 1720597998785,
+            "FILE_IS_SIGNED": 1,
+            "FILE_PATH": "C:\\Windows\\system32\\lsass.exe",
+            "HASH": "efa9e8325232bbd3f9a118d396de04370e56c3c7b6d552fab46b5b39f3ad522d",
+            "MEMORY_USAGE": 20381696,
+            "PARENT": {
+              "FILE_IS_SIGNED": 1,
+              "FILE_PATH": "\\Device\\HarddiskVolume2\\Windows\\System32\\wininit.exe",
+              "HASH": "21da0122ba7b723adad041969bded52eefa99b47571670599bc03b3d7e1e3788",
+              "MEMORY_USAGE": 7274496,
+              "PARENT_PROCESS_ID": 408,
+              "PROCESS_ID": 488,
+              "THIS_ATOM": "de71eba4c2835d60abe23057668e1741",
+              "THREADS": 1,
+              "TIMESTAMP": 1720588097985,
+              "USER_NAME": "NT AUTHORITY\\SYSTEM"
+            },
+            "PARENT_PROCESS_ID": 488,
+            "PROCESS_ID": 588,
+            "THREADS": 10,
+            "USER_NAME": "NT AUTHORITY\\SYSTEM"
+          },
+          "routing": {
+            "arch": 2,
+            "did": "",
+            "event_id": "b7d9ae47-556b-486f-8203-a4bda4bb2c81",
+            "event_time": 1720588098071,
+            "event_type": "EXISTING_PROCESS",
+            "ext_ip": "192.168.1.9",
+            "hostname": "desktop-c6oj5nl.net.example.com",
+            "iid": "f02a8078-5960-4db0-9dd8-69fcac1e1df9",
+            "int_ip": "192.168.1.9",
+            "moduleid": 2,
+            "oid": "1b6c5df7-ef3b-4521-bad6-f1f0ac9c13aa",
+            "parent": "de71eba4c2835d60abe23057668e1741",
+            "plat": 268435456,
+            "sid": "00b9df07-c52f-4140-a193-1405679ee5c9",
+            "tags": [
+              "windows",
+              "workstations"
+            ],
+            "this": "734702e11afa99f73557f38c668e1742"
+          }
+        },
+        {
+          "event": {
+            "ACCESS_FLAGS": 4112,
+            "PARENT_PROCESS_ID": 6840,
+            "PROCESS_ID": 588,
+            "SOURCE": {
+              "BASE_ADDRESS": 140695972675584,
+              "COMMAND_LINE": "mimikatz.exe",
+              "FILE_IS_SIGNED": 1,
+              "FILE_PATH": "C:\\Users\\tcm\\Downloads\\mimikatz.exe",
+              "HASH": "92804faaab2175dc501d73e814663058c78c0a042675a8937266357bcfb96c50",
+              "MEMORY_USAGE": 8724480,
+              "PARENT_ATOM": "aae2fd84c3b0dd864492570c668e1b34",
+              "PARENT_PROCESS_ID": 1948,
+              "PROCESS_ID": 6840,
+              "THIS_ATOM": "50f29004e5021c5258c2d145668e1cd0",
+              "THREADS": 2,
+              "TIMESTAMP": 1720589520394,
+              "USER_NAME": "DESKTOP-C6OJ5NL\\tcm"
+            },
+            "TARGET": {
+              "BASE_ADDRESS": 140699514044416,
+              "COMMAND_LINE": "C:\\Windows\\system32\\lsass.exe",
+              "CREATION_TIME": 1720597998785,
+              "FILE_IS_SIGNED": 1,
+              "FILE_PATH": "C:\\Windows\\system32\\lsass.exe",
+              "HASH": "efa9e8325232bbd3f9a118d396de04370e56c3c7b6d552fab46b5b39f3ad522d",
+              "MEMORY_USAGE": 20381696,
+              "PARENT_ATOM": "de71eba4c2835d60abe23057668e1741",
+              "PARENT_PROCESS_ID": 488,
+              "PROCESS_ID": 588,
+              "THIS_ATOM": "734702e11afa99f73557f38c668e1742",
+              "THREADS": 10,
+              "TIMESTAMP": 1720588098071,
+              "USER_NAME": "NT AUTHORITY\\SYSTEM"
+            }
+          },
+          "routing": {
+            "arch": 2,
+            "did": "",
+            "event_id": "9afed762-39f0-4cd5-a574-bd77dcacf5fb",
+            "event_time": 1720589547596,
+            "event_type": "REMOTE_PROCESS_HANDLE",
+            "ext_ip": "192.168.1.9",
+            "hostname": "desktop-c6oj5nl.net.example.com",
+            "iid": "f02a8078-5960-4db0-9dd8-69fcac1e1df9",
+            "int_ip": "192.168.1.9",
+            "moduleid": 2,
+            "oid": "1b6c5df7-ef3b-4521-bad6-f1f0ac9c13aa",
+            "parent": "50f29004e5021c5258c2d145668e1cd0",
+            "plat": 268435456,
+            "sid": "00b9df07-c52f-4140-a193-1405679ee5c9",
+            "tags": [
+              "windows",
+              "workstations"
+            ],
+            "target": "734702e11afa99f73557f38c668e1742",
+            "this": "ab80ef7fcdb77444cff3ffbc668e1cec"
+          }
+        }
+      ]
+    },
+    "routing": {
+      "arch": 2,
+      "did": "",
+      "event_id": "18f18656-32de-488c-ae89-63ead7d9b368",
+      "event_time": 1720589548097,
+      "event_type": "SENSITIVE_PROCESS_ACCESS",
+      "ext_ip": "192.168.1.9",
+      "hostname": "desktop-c6oj5nl.net.example.com",
+      "iid": "f02a8078-5960-4db0-9dd8-69fcac1e1df9",
+      "int_ip": "192.168.1.9",
+      "moduleid": 2,
+      "oid": "1b6c5df7-ef3b-4521-bad6-f1f0ac9c13aa",
+      "parent": "50f29004e5021c5258c2d145668e1cd0",
+      "plat": 268435456,
+      "sid": "00b9df07-c52f-4140-a193-1405679ee5c9",
+      "tags": [
+        "windows",
+        "workstations"
+      ],
+      "target": "734702e11afa99f73557f38c668e1742",
+      "this": "fe9d5b79543e8971bfdad026668e1cec"
+    },
+    "ts": "2024-07-10 05:32:28"
+  },
+  {
+    "event": {
+      "MODULES": 0,
+      "PROCESSES": [
+        {
+          "MEMORY_USAGE": 147456,
+          "PARENT_PROCESS_ID": 0,
+          "PROCESS_ID": 4,
+          "THREADS": 100,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "dcb30ff71fab2d4c4f54c30b668e1741"
+        },
+        {
+          "FILE_IS_SIGNED": 0,
+          "FILE_PATH": "Registry",
+          "MEMORY_USAGE": 73031680,
+          "PARENT_PROCESS_ID": 4,
+          "PROCESS_ID": 72,
+          "THREADS": 4,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "81c2ea42f484db6bbebc4156668e1741"
+        },
+        {
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "\\Device\\HarddiskVolume2\\Windows\\System32\\smss.exe",
+          "HASH": "d44c73818b0cf757a1d07274013baa87f36ebf9c59bec8972fea08c6cfb03862",
+          "MEMORY_USAGE": 1212416,
+          "PARENT_PROCESS_ID": 4,
+          "PROCESS_ID": 320,
+          "THREADS": 2,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "8bed5eca64a456cbaa3c1b2e668e1741"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p -s lmhosts",
+          "CREATION_TIME": 1720597999915,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 5869568,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 352,
+          "THREADS": 3,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "79e73f399efd7b337e81e0df668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup -s WpnUserService",
+          "CREATION_TIME": 1720587259098,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 32727040,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 360,
+          "THREADS": 2,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "1c83280cd3b42f9aea38172b668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p -s NcbService",
+          "CREATION_TIME": 1720597999964,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 10280960,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 380,
+          "THREADS": 1,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "430ca70c57356b09f6991c85668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p -s TimeBrokerSvc",
+          "CREATION_TIME": 1720597999962,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 12533760,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 384,
+          "THREADS": 1,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "de281b355a41c30a12d6f732668e1743"
+        },
+        {
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "\\Device\\HarddiskVolume2\\Windows\\System32\\csrss.exe",
+          "HASH": "9e63d657b41e13b75aebb261e7f93c0655d52ee82811b37e7470f4119e5b6054",
+          "MEMORY_USAGE": 5476352,
+          "PARENT_PROCESS_ID": 408,
+          "PROCESS_ID": 420,
+          "THREADS": 9,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "6594124829d6ba44a63be46f668e1741"
+        },
+        {
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "\\Device\\HarddiskVolume2\\Windows\\System32\\wininit.exe",
+          "HASH": "21da0122ba7b723adad041969bded52eefa99b47571670599bc03b3d7e1e3788",
+          "MEMORY_USAGE": 7274496,
+          "PARENT_PROCESS_ID": 408,
+          "PROCESS_ID": 488,
+          "THREADS": 1,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "de71eba4c2835d60abe23057668e1741"
+        },
+        {
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "\\Device\\HarddiskVolume2\\Windows\\System32\\csrss.exe",
+          "HASH": "9e63d657b41e13b75aebb261e7f93c0655d52ee82811b37e7470f4119e5b6054",
+          "MEMORY_USAGE": 6615040,
+          "PARENT_PROCESS_ID": 480,
+          "PROCESS_ID": 496,
+          "THREADS": 11,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "d7569ab521b8b9508e44d336668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140698917601280,
+          "COMMAND_LINE": "winlogon.exe",
+          "CREATION_TIME": 1720597998673,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\winlogon.exe",
+          "HASH": "fcc138570359bc14d8e54fd3c18ec85d6c54cb10313d2f7872c0848a0eb55e71",
+          "MEMORY_USAGE": 11616256,
+          "PARENT_PROCESS_ID": 480,
+          "PROCESS_ID": 556,
+          "THREADS": 4,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "0126e65eb94d3234a642332e668e1742"
+        },
+        {
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "\\Device\\HarddiskVolume2\\Windows\\System32\\services.exe",
+          "HASH": "1efd9a81b2ddf21b3f327d67a6f8f88f814979e84085ec812af72450310d4281",
+          "MEMORY_USAGE": 10141696,
+          "PARENT_PROCESS_ID": 488,
+          "PROCESS_ID": 580,
+          "THREADS": 5,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "1577354a0ab7f18e4c44c049668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140699514044416,
+          "COMMAND_LINE": "C:\\Windows\\system32\\lsass.exe",
+          "CREATION_TIME": 1720597998785,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\lsass.exe",
+          "HASH": "efa9e8325232bbd3f9a118d396de04370e56c3c7b6d552fab46b5b39f3ad522d",
+          "MEMORY_USAGE": 22659072,
+          "PARENT_PROCESS_ID": 488,
+          "PROCESS_ID": 588,
+          "THREADS": 9,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "734702e11afa99f73557f38c668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696066129920,
+          "COMMAND_LINE": "\"C:\\Windows\\SystemApps\\Microsoft.Windows.Search_cw5n1h2txyewy\\SearchApp.exe\" -ServerName:CortanaUI.AppX8z9r6jm96hw4bsbneegw0kyxx296wr9t.mca",
+          "CREATION_TIME": 1720587264632,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\SystemApps\\Microsoft.Windows.Search_cw5n1h2txyewy\\SearchApp.exe",
+          "HASH": "07a87f691372e5297fb7d2015f711dbda1d7a39263f5b53f2c84fdf1b67a4002",
+          "MEMORY_USAGE": 216719360,
+          "PARENT_PROCESS_ID": 716,
+          "PROCESS_ID": 612,
+          "THREADS": 37,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "34f4b3f39cb1480a782cef28668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140697187909632,
+          "COMMAND_LINE": "C:\\Windows\\System32\\RuntimeBroker.exe -Embedding",
+          "CREATION_TIME": 1720587265203,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\RuntimeBroker.exe",
+          "HASH": "579dfced8f02a7e1e6e8df10c400117d3127ead7231776a1e467eb507261e920",
+          "MEMORY_USAGE": 29036544,
+          "PARENT_PROCESS_ID": 716,
+          "PROCESS_ID": 684,
+          "THREADS": 4,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "3a3aba05973229be7544bb43668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140701601628160,
+          "COMMAND_LINE": "\"fontdrvhost.exe\"",
+          "CREATION_TIME": 1720597999052,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\fontdrvhost.exe",
+          "HASH": "6638d1df1f96b280bf1a9a15ff7b25dd9277ad58e44d5871e37a269b7b02338d",
+          "MEMORY_USAGE": 4108288,
+          "PARENT_PROCESS_ID": 488,
+          "PROCESS_ID": 688,
+          "THREADS": 5,
+          "USER_NAME": "Font Driver Host\\UMFD-0",
+          "this": "a6198a55c1acedeffa3777c0668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140701601628160,
+          "COMMAND_LINE": "\"fontdrvhost.exe\"",
+          "CREATION_TIME": 1720597999063,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\fontdrvhost.exe",
+          "HASH": "6638d1df1f96b280bf1a9a15ff7b25dd9277ad58e44d5871e37a269b7b02338d",
+          "MEMORY_USAGE": 5599232,
+          "PARENT_PROCESS_ID": 556,
+          "PROCESS_ID": 696,
+          "THREADS": 5,
+          "USER_NAME": "Font Driver Host\\UMFD-1",
+          "this": "bd343d12d40f21454d2047b3668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k DcomLaunch -p",
+          "CREATION_TIME": 1720597999089,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 27107328,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 716,
+          "THREADS": 11,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "df7e13a64b2b26a8817f2a06668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k RPCSS -p",
+          "CREATION_TIME": 1720597999344,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 14659584,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 800,
+          "THREADS": 8,
+          "USER_NAME": "NT AUTHORITY\\NETWORK SERVICE",
+          "this": "2647249f3295e8bf4969aa79668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k DcomLaunch -p -s LSM",
+          "CREATION_TIME": 1720597999377,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 8454144,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 852,
+          "THREADS": 3,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "7918c14c90988858dcb33632668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140695822991360,
+          "COMMAND_LINE": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --profile-directory=Default",
+          "CREATION_TIME": 1720587275968,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+          "HASH": "a588a724109c066abc1075cc6822fa1cea1a7fee1385886d37b551d9a89fe9c8",
+          "MEMORY_USAGE": 215465984,
+          "PARENT_PROCESS_ID": 4436,
+          "PROCESS_ID": 920,
+          "THREADS": 53,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "7c324966e2a204ac93d75d4d668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140700678946816,
+          "COMMAND_LINE": "\"dwm.exe\"",
+          "CREATION_TIME": 1720597999679,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\dwm.exe",
+          "HASH": "de3d734f5cc52c9b58fedf1591c7f9ac28899e96d6834f73eccef9a156838756",
+          "MEMORY_USAGE": 103333888,
+          "PARENT_PROCESS_ID": 556,
+          "PROCESS_ID": 928,
+          "THREADS": 16,
+          "USER_NAME": "Window Manager\\DWM-1",
+          "this": "1f8dcb2f75d62c00bdd04ef5668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup -s CDPUserSvc",
+          "CREATION_TIME": 1720587259020,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 18178048,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 988,
+          "THREADS": 5,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "7238cdb36847735d8ff75ec1668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k LocalServiceNoNetwork -p",
+          "CREATION_TIME": 1720597999805,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 6553600,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1004,
+          "THREADS": 2,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "3190ffea5e5787266006ec4b668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140701657202688,
+          "COMMAND_LINE": "sihost.exe",
+          "CREATION_TIME": 1720587259001,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\sihost.exe",
+          "HASH": "62ebf6076acaa11199a26d8fb8828fe0a0de7a5551dc1ecd684e771c2fccb7fa",
+          "MEMORY_USAGE": 25939968,
+          "PARENT_PROCESS_ID": 1732,
+          "PROCESS_ID": 1012,
+          "THREADS": 8,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "168517e83dcd13e0ffb0d6e2668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140700193914880,
+          "COMMAND_LINE": "\"C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe\" -ServerName:App.AppXtk181tbxbce2qsex02s8tw7hfxa9xb3t.mca",
+          "CREATION_TIME": 1720589095638,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+          "HASH": "d952f669626ed9e1d6aee6b18b920b6a206d050e5973ebd656fd0473b90d9b35",
+          "MEMORY_USAGE": 46604288,
+          "PARENT_PROCESS_ID": 716,
+          "PROCESS_ID": 1032,
+          "THREADS": 14,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "7dd6005057a90501fea51713668e1b29"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p -s EventLog",
+          "CREATION_TIME": 1720598000135,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 16449536,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1064,
+          "THREADS": 6,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "9e81b1c1f37a7425ce6bfff0668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k LocalService -p -s DispBrokerDesktopSvc",
+          "CREATION_TIME": 1720598000137,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 7589888,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1072,
+          "THREADS": 1,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "828fbd3904b5836ca1bc198e668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k LocalService -p -s nsi",
+          "CREATION_TIME": 1720598000187,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 8699904,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1124,
+          "THREADS": 1,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "a0f888cac6e1333c909b695c668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696940707840,
+          "COMMAND_LINE": "taskhostw.exe {222A245B-E637-4AE9-A93F-A59CA119A75E}",
+          "CREATION_TIME": 1720587259217,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\taskhostw.exe",
+          "HASH": "1c7b7e7026ef8307bf33afdadf1d49e7c1ee4c829260b4f6988185d22d7bcc3a",
+          "MEMORY_USAGE": 16142336,
+          "PARENT_PROCESS_ID": 1200,
+          "PROCESS_ID": 1144,
+          "THREADS": 6,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "5bf5335b3cd44d76cb387ea3668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p -s Dhcp",
+          "CREATION_TIME": 1720598000266,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 8040448,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1168,
+          "THREADS": 5,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "0dfd8e00a83ab2fa38d11fe9668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p -s Schedule",
+          "CREATION_TIME": 1720598000315,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 15769600,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1200,
+          "THREADS": 5,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "435330cd9bdbab62221c223a668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k NetworkService -p -s NlaSvc",
+          "CREATION_TIME": 1720598000352,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 11968512,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1256,
+          "THREADS": 5,
+          "USER_NAME": "NT AUTHORITY\\NETWORK SERVICE",
+          "this": "d6dd30c775f7d1b711b2bfaa668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k LocalService -p",
+          "CREATION_TIME": 1720598000403,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 12058624,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1296,
+          "THREADS": 2,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "0b9e0865b6b9b4fd7c09f458668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k appmodel -p -s StateRepository",
+          "CREATION_TIME": 1720587204167,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 14430208,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1308,
+          "THREADS": 1,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "e7a287d427986a7fc7682ba2668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140700697296896,
+          "COMMAND_LINE": "C:\\Windows\\System32\\VBoxService.exe",
+          "CREATION_TIME": 1720598000552,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\VBoxService.exe",
+          "HASH": "2a4f84fffdb283588dc9c771a9fb1900559180ce6ede597c3195e21f1f9d676e",
+          "MEMORY_USAGE": 6840320,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1356,
+          "THREADS": 10,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "3398e590a951ae3b79fb03d6668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p -s ProfSvc",
+          "CREATION_TIME": 1720587202772,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 14467072,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1452,
+          "THREADS": 2,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "db7e6596ebe59cbae1852494668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k LocalService -p -s EventSystem",
+          "CREATION_TIME": 1720587202799,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 8089600,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1484,
+          "THREADS": 4,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "be16b3e39e21276037c23e30668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p -s SysMain",
+          "CREATION_TIME": 1720587202802,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 76648448,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1496,
+          "THREADS": 2,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "b1093c2ffcc21cd24e6cd355668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k netsvcs -p -s Themes",
+          "CREATION_TIME": 1720587202817,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 6320128,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1524,
+          "THREADS": 2,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "afece1068319ac59c2dc624f668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140701283778560,
+          "COMMAND_LINE": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" ",
+          "CREATION_TIME": 1720587948931,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "HASH": "9785001b0dcf755eddb8af294a373c0b87b2498660f724e76c4d53f9c217c7a3",
+          "MEMORY_USAGE": 78655488,
+          "PARENT_PROCESS_ID": 4436,
+          "PROCESS_ID": 1612,
+          "THREADS": 9,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "27b4db0b75e5918212767830668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140697699680256,
+          "COMMAND_LINE": "\"C:\\Windows\\system32\\rphcp.exe\" -w -d AAAABgAAAQsFAAAAI2FhZTY3ZDdlNzY1NzBlYzEubGMubGltYWNoYXJsaWUuaW8AAAABEAIBuwAAAQwFAAAAI2FhZTY3ZDdlNzY1NzBlYzEubGMubGltYWNoYXJsaWUuaW8AAAABEQIBuwAAAAiBAAAABQAAAAUHAAAAEBtsXffvO0Uhutbx8KycE6oAAAAJBwAAABDwKoB4WWBNsJ3YafysHh35AAAABAcAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAcDAAAAAAAAAAYDAAAAAAAAAQ4HAAABJjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALidLrkFS+vUVnYod9c0nqL2/tNImMOAZyHWQMLCn81B94hwGnxMpRMlhkCsGtzAsZTKMphTR95LJUgr6Ms3eSVwbUfpkrgE0J3vMsISI1zS60wn8r//oWiOpPmhxA1SJ7WUViRBkm57gyJaK5+F+lMYF0mwU4FkYYjB93UFUUhYPEOIiVDD6x3lwf5mCQM5dPiUHguQzMtYqarFrypd/8FWB5gIV5ygSrauT0skUOSj2MDZOmVhjJdglqU2tXRwP+JD+O67K477SbperxkiZPuSmTCoxmomCvbFiyuUH2mfJAmq5UTm9TIxQr1wqD+xSItzq9BDyZ53rLeddUkO0aMCAwEAAQ==",
+          "CREATION_TIME": 1720588074714,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\rphcp.exe",
+          "HASH": "387281fd1da07acd305ff072c23674c8a6d507e30c5c3dedcc248d969a3464fc",
+          "MEMORY_USAGE": 63094784,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1628,
+          "THREADS": 30,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "cc601ba76a3c2bf52dbea274668e1742"
+        },
+        {
+          "FILE_IS_SIGNED": 0,
+          "FILE_PATH": "MemCompression",
+          "MEMORY_USAGE": 0,
+          "PARENT_PROCESS_ID": 4,
+          "PROCESS_ID": 1652,
+          "THREADS": 34,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "dc24dc668f97f61df5f580c0668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p -s SENS",
+          "CREATION_TIME": 1720587202918,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 8376320,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1672,
+          "THREADS": 2,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "d4d633a1d342de3f3a49cb11668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k LocalService -p -s netprofm",
+          "CREATION_TIME": 1720587202950,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 10117120,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1704,
+          "THREADS": 6,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "fec1d9d10ee74a5a04f4059d668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p -s UserManager",
+          "CREATION_TIME": 1720587202964,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 10031104,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1732,
+          "THREADS": 3,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "5d3ccdc570dfa5ae776b1bf6668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p -s AudioEndpointBuilder",
+          "CREATION_TIME": 1720587202976,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 8404992,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1740,
+          "THREADS": 2,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "715fe9cf3b2e7eb954888c6a668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+          "CREATION_TIME": 1720587204208,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 11055104,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1752,
+          "THREADS": 3,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "686b56574a61836d9ce05159668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p -s TokenBroker",
+          "CREATION_TIME": 1720587259183,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 19468288,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1760,
+          "THREADS": 3,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "7e88fbb01080c6801f510a2b668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k LocalService -p -s FontCache",
+          "CREATION_TIME": 1720587202994,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 7991296,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1764,
+          "THREADS": 4,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "800b06ddcc03df541c34c5d8668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140697187909632,
+          "COMMAND_LINE": "C:\\Windows\\System32\\RuntimeBroker.exe -Embedding",
+          "CREATION_TIME": 1720589095911,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\RuntimeBroker.exe",
+          "HASH": "579dfced8f02a7e1e6e8df10c400117d3127ead7231776a1e467eb507261e920",
+          "MEMORY_USAGE": 17797120,
+          "PARENT_PROCESS_ID": 716,
+          "PROCESS_ID": 1792,
+          "THREADS": 2,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "80b90fa9497e4066b2f3fa2a668e1b2a"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+          "CREATION_TIME": 1720587204211,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 9912320,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1876,
+          "THREADS": 4,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "69c37300c2496babcd10e776668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+          "CREATION_TIME": 1720587203880,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 13246464,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1936,
+          "THREADS": 10,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "c3974469696d25b28c48cd94668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140699238662144,
+          "COMMAND_LINE": "\"C:\\Windows\\system32\\cmd.exe\" ",
+          "CREATION_TIME": 1720589106737,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\cmd.exe",
+          "HASH": "badf4752413cb0cbdc03fb95820ca167f0cdc63b597ccdb5ef43111180e088b0",
+          "MEMORY_USAGE": 5210112,
+          "PARENT_PROCESS_ID": 4436,
+          "PROCESS_ID": 1948,
+          "THREADS": 1,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "aae2fd84c3b0dd864492570c668e1b34"
+        },
+        {
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "\\Device\\HarddiskVolume2\\Windows\\System32\\SgrmBroker.exe",
+          "HASH": "798d49a8e6984ec3c559c40a6d6e7bba1de1272816157aa4e90b41a2ba6a4635",
+          "MEMORY_USAGE": 7540736,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 1956,
+          "THREADS": 7,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "0a25257ddf684d0158fe269d668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p -s WinHttpAutoProxySvc",
+          "CREATION_TIME": 1720587204083,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 7880704,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2024,
+          "THREADS": 1,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "708c5d68964dcecea9c649d9668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+          "CREATION_TIME": 1720587204101,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 8769536,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2040,
+          "THREADS": 9,
+          "USER_NAME": "NT AUTHORITY\\NETWORK SERVICE",
+          "this": "44cdba095c7030263fca6bfe668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k netsvcs -p -s ShellHWDetection",
+          "CREATION_TIME": 1720587204433,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 13000704,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2084,
+          "THREADS": 2,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "2c75c506f9424f9a478cfcd3668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140697477578752,
+          "COMMAND_LINE": "C:\\Windows\\System32\\spoolsv.exe",
+          "CREATION_TIME": 1720587204765,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\spoolsv.exe",
+          "HASH": "abc2c4cd2a5de2fd6a2fb472b47517cfbcaee6138f4e52c68c042100db17574b",
+          "MEMORY_USAGE": 15544320,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2220,
+          "THREADS": 6,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "5e3fa415043ffa022b96cf66668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k LocalServiceNoNetworkFirewall -p",
+          "CREATION_TIME": 1720587205372,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 18976768,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2292,
+          "THREADS": 11,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "122d1d0719dc07339da1f59a668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k NetworkService -p -s LanmanWorkstation",
+          "CREATION_TIME": 1720587205408,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 8462336,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2320,
+          "THREADS": 3,
+          "USER_NAME": "NT AUTHORITY\\NETWORK SERVICE",
+          "this": "3d4cda2d7e33254a3c482256668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140694769369088,
+          "COMMAND_LINE": "\\??\\C:\\Windows\\system32\\conhost.exe 0x4",
+          "CREATION_TIME": 1720587949035,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\conhost.exe",
+          "HASH": "cc0a60cd15fa21e54615e46cd0f10cfbe86f496dc64d14b31d9f3b415d120ee1",
+          "MEMORY_USAGE": 26972160,
+          "PARENT_PROCESS_ID": 1612,
+          "PROCESS_ID": 2416,
+          "THREADS": 3,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "bc55e134b29145d9d47b0326668e1743"
+        },
+        {
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "\\Device\\HarddiskVolume2\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 22085632,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2420,
+          "THREADS": 25,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "9dee604296411ad9bcc5fe01668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140700655681536,
+          "COMMAND_LINE": "\"C:\\Windows\\system32\\SearchProtocolHost.exe\" Global\\UsGthrFltPipeMssGthrPipe_S-1-5-21-2107851564-3450463542-1672806519-100111_ Global\\UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-2107851564-3450463542-1672806519-100111 1 -2147483646 \"Software\\Microsoft\\Windows Search\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)\" \"C:\\ProgramData\\Microsoft\\Search\\Data\\Temp\\usgthrsvc\" \"DownLevelDaemon\"  \"1\"",
+          "CREATION_TIME": 1720589731610,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\SearchProtocolHost.exe",
+          "HASH": "67da51869559b8d2b57d0037a1aa13432c0061c534d381862acbc260af875287",
+          "MEMORY_USAGE": 7909376,
+          "PARENT_PROCESS_ID": 2988,
+          "PROCESS_ID": 2540,
+          "THREADS": 4,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "74c2b3e4e655e254cf5010a6668e1da5"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s CryptSvc",
+          "CREATION_TIME": 1720587205923,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 15036416,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2560,
+          "THREADS": 5,
+          "USER_NAME": "NT AUTHORITY\\NETWORK SERVICE",
+          "this": "7bba8902b0fd58fccc336fe4668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k utcsvc -p",
+          "CREATION_TIME": 1720587205927,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 44240896,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2572,
+          "THREADS": 8,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "2a95541487fd328d7ef9ac72668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k LocalServiceNoNetwork -p -s DPS",
+          "CREATION_TIME": 1720587205940,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 19849216,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2580,
+          "THREADS": 12,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "ea7d9477312e80d63d5cf9f7668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p -s Winmgmt",
+          "CREATION_TIME": 1720587205967,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 18571264,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2600,
+          "THREADS": 9,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "63fb45aec380ac94c51f1ff6668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p -s LanmanServer",
+          "CREATION_TIME": 1720587206002,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 9527296,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2620,
+          "THREADS": 4,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "248d30dd7e0c2c02eed9b1cc668e1742"
+        },
+        {
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "\\Device\\HarddiskVolume2\\Windows\\Sysmon64.exe",
+          "HASH": "39b094613132377bc236f4ad940a3e02c544f86347c0179a9425edc1bd3b85cd",
+          "MEMORY_USAGE": 20660224,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2668,
+          "THREADS": 15,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "16f08500978ed27addbcc9df668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p -s TrkWks",
+          "CREATION_TIME": 1720587206086,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 6152192,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2676,
+          "THREADS": 3,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "75423c8fd2ad13990f62f479668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p -s WpnService",
+          "CREATION_TIME": 1720587206090,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 20463616,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2692,
+          "THREADS": 5,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "c6f8c07120bef56dcda8b02a668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k NetSvcs -p -s iphlpsvc",
+          "CREATION_TIME": 1720587206295,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 11116544,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2776,
+          "THREADS": 5,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "9f34b1a65a43d560f27a3adc668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k LocalService -p -s WdiServiceHost",
+          "CREATION_TIME": 1720587206298,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 5971968,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2788,
+          "THREADS": 2,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "1b218a823c59e285e378dae5668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k LocalService -s W32Time",
+          "CREATION_TIME": 1720587373070,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 8458240,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2940,
+          "THREADS": 4,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "bef251f5758eb204dc8debe6668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140700065333248,
+          "COMMAND_LINE": "C:\\Windows\\system32\\SearchIndexer.exe /Embedding",
+          "CREATION_TIME": 1720587206466,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\SearchIndexer.exe",
+          "HASH": "738c871460e21d724e9d1d492abafdd54428d7f29f9d8a53592612c170fd0408",
+          "MEMORY_USAGE": 30650368,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 2988,
+          "THREADS": 16,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "322440d010e1d5d65a4f0a92668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140698006781952,
+          "COMMAND_LINE": "C:\\Windows\\system32\\wbem\\unsecapp.exe -Embedding",
+          "CREATION_TIME": 1720587206835,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\wbem\\unsecapp.exe",
+          "HASH": "8a70e6f48ea1f05ce55cc5473491d344c8c194041f876c5892bfb05e94a9cbdf",
+          "MEMORY_USAGE": 7118848,
+          "PARENT_PROCESS_ID": 716,
+          "PROCESS_ID": 3052,
+          "THREADS": 3,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "38d31e05c7ae4b2d3c7a9e08668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -s RmSvc",
+          "CREATION_TIME": 1720587251717,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 8945664,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 3080,
+          "THREADS": 5,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "284da114b19c36416c539c88668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140695563927552,
+          "COMMAND_LINE": "\"C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe\" -ServerName:InputApp.AppXk0k6mrh4r2q0ct33a9wgbez0x7v9cz5y.mca",
+          "CREATION_TIME": 1720587277816,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+          "HASH": "8d68853d207d6abad34c38d8dd2f1230b426283aaee9f38ae2658f58085ba6fa",
+          "MEMORY_USAGE": 40415232,
+          "PARENT_PROCESS_ID": 716,
+          "PROCESS_ID": 3104,
+          "THREADS": 11,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "7df45d9f14d9d3ac59086465668e1742"
+        },
+        {
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "\\Device\\HarddiskVolume2\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 10903552,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 3152,
+          "THREADS": 8,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "5f2f03a8a929ea805ae970ba668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140702983389184,
+          "COMMAND_LINE": "AggregatorHost.exe",
+          "CREATION_TIME": 1720587209065,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\AggregatorHost.exe",
+          "HASH": "e0de0de9d8dd73bb81e9ac6f14eb97f77382e4147d0c96ef9775d97d7ebd8968",
+          "MEMORY_USAGE": 4866048,
+          "PARENT_PROCESS_ID": 2572,
+          "PROCESS_ID": 3432,
+          "THREADS": 1,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "bd9257c3a747ba84ee0403ed668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p -s UsoSvc",
+          "CREATION_TIME": 1720587211135,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 24363008,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 3560,
+          "THREADS": 7,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "ce967936f00c6d7e4b43eeca668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696879693824,
+          "COMMAND_LINE": "C:\\Windows\\System32\\mousocoreworker.exe -Embedding",
+          "CREATION_TIME": 1720587211188,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\mousocoreworker.exe",
+          "HASH": "ffc7037fb0cd77bfbdaca75c10714eceff6956a79fd1de543b81093d4b238365",
+          "MEMORY_USAGE": 29515776,
+          "PARENT_PROCESS_ID": 716,
+          "PROCESS_ID": 3620,
+          "THREADS": 5,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "dfa92c3f9881fba88ecbe329668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p -s wuauserv",
+          "CREATION_TIME": 1720587211285,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 36982784,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 3660,
+          "THREADS": 9,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "c6c11a8b5af7d8f10003a578668e1742"
+        },
+        {
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "\\Device\\HarddiskVolume2\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 18989056,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 3824,
+          "THREADS": 10,
+          "USER_NAME": "NT AUTHORITY\\NETWORK SERVICE",
+          "this": "7d8ca3fe44dd18f8a8967326668e1742"
+        },
+        {
+          "BASE_ADDRESS": 140695822991360,
+          "COMMAND_LINE": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=utility --utility-sub-type=edge_search_indexer.mojom.SearchIndexerInterfaceBroker --lang=en-US --service-sandbox-type=search_indexer --message-loop-type-ui --field-trial-handle=7140,i,1344937198643387701,9166643746799228435,262144 --variations-seed-version --mojo-platform-channel-handle=7192 /prefetch:8",
+          "CREATION_TIME": 1720587336647,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+          "HASH": "a588a724109c066abc1075cc6822fa1cea1a7fee1385886d37b551d9a89fe9c8",
+          "MEMORY_USAGE": 25505792,
+          "PARENT_PROCESS_ID": 920,
+          "PROCESS_ID": 3832,
+          "THREADS": 9,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "fafec53fbb4ec67f14238499668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p -s StorSvc",
+          "CREATION_TIME": 1720587212700,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 11948032,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 3876,
+          "THREADS": 4,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "feb7aa84ee2255ac1bb759fc668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p -s TabletInputService",
+          "CREATION_TIME": 1720587259487,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 8507392,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 4152,
+          "THREADS": 3,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "5e6d58ec780b5c2b8719e5ad668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140698339377152,
+          "COMMAND_LINE": "\"ctfmon.exe\"",
+          "CREATION_TIME": 1720587259823,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\ctfmon.exe",
+          "HASH": "484fed5f039f429ed933931ba607b7efda7d1a343d79cfab60910e1843147012",
+          "MEMORY_USAGE": 20803584,
+          "PARENT_PROCESS_ID": 4152,
+          "PROCESS_ID": 4220,
+          "THREADS": 8,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "65f9ab033cb590b8c87f2b5d668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k LocalService -p -s CDPSvc",
+          "CREATION_TIME": 1720587260216,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 16596992,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 4316,
+          "THREADS": 5,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "bf14c73779bd315ea0466869668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140701802168320,
+          "COMMAND_LINE": "C:\\Windows\\Explorer.EXE",
+          "CREATION_TIME": 1720587260537,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\Explorer.EXE",
+          "HASH": "a7c7fd5f9cec332554ca7cdb29afb5bd37af4dc43af78e55b14ca8b8c951c6a0",
+          "MEMORY_USAGE": 140206080,
+          "PARENT_PROCESS_ID": 4404,
+          "PROCESS_ID": 4436,
+          "THREADS": 54,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "cd4774bacddbfc1ea67a1310668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k ClipboardSvcGroup -p -s cbdhsvc",
+          "CREATION_TIME": 1720587261562,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 22413312,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 4680,
+          "THREADS": 4,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "18c5b3cfa16b8edf1a72ae75668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140695822991360,
+          "COMMAND_LINE": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --disable-gpu-compositing --lang=en-US --js-flags=--ms-user-locale= --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=86 --time-ticks-at-unix-epoch=-1720587161461888 --launch-time-ticks=2562365776 --field-trial-handle=7868,i,1344937198643387701,9166643746799228435,262144 --variations-seed-version --mojo-platform-channel-handle=1792 /prefetch:1",
+          "CREATION_TIME": 1720589724034,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+          "HASH": "a588a724109c066abc1075cc6822fa1cea1a7fee1385886d37b551d9a89fe9c8",
+          "MEMORY_USAGE": 29532160,
+          "PARENT_PROCESS_ID": 920,
+          "PROCESS_ID": 4688,
+          "THREADS": 15,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "7a23dc3dbcb257e6b5886297668e1d9d"
+        },
+        {
+          "BASE_ADDRESS": 140695822991360,
+          "COMMAND_LINE": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --field-trial-handle=1900,i,1344937198643387701,9166643746799228435,262144 --variations-seed-version --mojo-platform-channel-handle=3376 /prefetch:3",
+          "CREATION_TIME": 1720587276889,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+          "HASH": "a588a724109c066abc1075cc6822fa1cea1a7fee1385886d37b551d9a89fe9c8",
+          "MEMORY_USAGE": 43847680,
+          "PARENT_PROCESS_ID": 920,
+          "PROCESS_ID": 4708,
+          "THREADS": 18,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "2563958b7ac1230ca8ff5970668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140695822991360,
+          "COMMAND_LINE": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=gpu-process --gpu-preferences=WAAAAAAAAADgAAAMAAAAAAAAAAAAAAAAAABgAAEAAAA4AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --field-trial-handle=2576,i,1344937198643387701,9166643746799228435,262144 --variations-seed-version --mojo-platform-channel-handle=2572 /prefetch:2",
+          "CREATION_TIME": 1720587276887,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+          "HASH": "a588a724109c066abc1075cc6822fa1cea1a7fee1385886d37b551d9a89fe9c8",
+          "MEMORY_USAGE": 97751040,
+          "PARENT_PROCESS_ID": 920,
+          "PROCESS_ID": 4836,
+          "THREADS": 15,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "ac8a5859be53b2d7032f3f4a668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140701954342912,
+          "COMMAND_LINE": "\"C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe\" -ServerName:App.AppXywbrabmsek0gm3tkwpr5kwzbs55tkqay.mca",
+          "CREATION_TIME": 1720587262887,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+          "HASH": "55e46e0d2dee64090d11de97bca4110eb4a2d97d53e4c15d2a9e9ac21e23e10e",
+          "MEMORY_USAGE": 63053824,
+          "PARENT_PROCESS_ID": 716,
+          "PROCESS_ID": 4984,
+          "THREADS": 8,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "5d33004a9783814daaf9a833668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140697187909632,
+          "COMMAND_LINE": "C:\\Windows\\System32\\RuntimeBroker.exe -Embedding",
+          "CREATION_TIME": 1720587263435,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\RuntimeBroker.exe",
+          "HASH": "579dfced8f02a7e1e6e8df10c400117d3127ead7231776a1e467eb507261e920",
+          "MEMORY_USAGE": 28483584,
+          "PARENT_PROCESS_ID": 716,
+          "PROCESS_ID": 5068,
+          "THREADS": 1,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "0dcd953015b41b7cfa9fef00668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140695822991360,
+          "COMMAND_LINE": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --instant-process --disable-gpu-compositing --lang=en-US --js-flags=--ms-user-locale= --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=82 --time-ticks-at-unix-epoch=-1720587161461888 --launch-time-ticks=2552572159 --field-trial-handle=6876,i,1344937198643387701,9166643746799228435,262144 --variations-seed-version --mojo-platform-channel-handle=8388 /prefetch:1",
+          "CREATION_TIME": 1720589714148,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+          "HASH": "a588a724109c066abc1075cc6822fa1cea1a7fee1385886d37b551d9a89fe9c8",
+          "MEMORY_USAGE": 141385728,
+          "PARENT_PROCESS_ID": 920,
+          "PROCESS_ID": 5088,
+          "THREADS": 18,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "744427ee191ba57790c72095668e1d93"
+        },
+        {
+          "BASE_ADDRESS": 140699332509696,
+          "COMMAND_LINE": "\"C:\\Windows\\system32\\SearchFilterHost.exe\" 0 820 824 832 8192 828 804 ",
+          "CREATION_TIME": 1720589731628,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\SearchFilterHost.exe",
+          "HASH": "17391d28c92b69f49e2cec8c95f8823e4222d062b38315ee01d0069dd6986cdf",
+          "MEMORY_USAGE": 7651328,
+          "PARENT_PROCESS_ID": 2988,
+          "PROCESS_ID": 5136,
+          "THREADS": 1,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "3fc94954d8c715e9c1c080ec668e1da5"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k netsvcs -p",
+          "CREATION_TIME": 1720587683105,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 17149952,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 5436,
+          "THREADS": 4,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "29bd348a8ac7c307560ce3f9668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup",
+          "CREATION_TIME": 1720587373441,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 13176832,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 5484,
+          "THREADS": 1,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "05979b66f6ffb694f6daad21668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140695822991360,
+          "COMMAND_LINE": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --field-trial-handle=1944,i,1344937198643387701,9166643746799228435,262144 --variations-seed-version --mojo-platform-channel-handle=3484 /prefetch:8",
+          "CREATION_TIME": 1720587276892,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+          "HASH": "a588a724109c066abc1075cc6822fa1cea1a7fee1385886d37b551d9a89fe9c8",
+          "MEMORY_USAGE": 19292160,
+          "PARENT_PROCESS_ID": 920,
+          "PROCESS_ID": 5640,
+          "THREADS": 10,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "c26e30d5a3a1c8764b1b04ee668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140695822991360,
+          "COMMAND_LINE": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=crashpad-handler \"--user-data-dir=C:\\Users\\tcm\\AppData\\Local\\Microsoft\\Edge\\User Data\" /prefetch:4 --monitor-self-annotation=ptype=crashpad-handler \"--database=C:\\Users\\tcm\\AppData\\Local\\Microsoft\\Edge\\User Data\\Crashpad\" --annotation=IsOfficialBuild=1 --annotation=channel= --annotation=chromium-version=126.0.6478.114 \"--annotation=exe=C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --annotation=plat=Win64 \"--annotation=prod=Microsoft Edge\" --annotation=ver=126.0.2592.68 --initial-client-data=0x2ec,0x2f0,0x2f4,0x2e8,0x2fc,0x7ff837150148,0x7ff837150154,0x7ff837150160",
+          "CREATION_TIME": 1720587276448,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+          "HASH": "a588a724109c066abc1075cc6822fa1cea1a7fee1385886d37b551d9a89fe9c8",
+          "MEMORY_USAGE": 7704576,
+          "PARENT_PROCESS_ID": 920,
+          "PROCESS_ID": 5720,
+          "THREADS": 7,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "d4c3f931575c996262b57be3668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p -s PcaSvc",
+          "CREATION_TIME": 1720587276033,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 10211328,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 5888,
+          "THREADS": 7,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "ed5c4ed41953d38ab4668e68668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140697187909632,
+          "COMMAND_LINE": "C:\\Windows\\System32\\RuntimeBroker.exe -Embedding",
+          "CREATION_TIME": 1720587270194,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\RuntimeBroker.exe",
+          "HASH": "579dfced8f02a7e1e6e8df10c400117d3127ead7231776a1e467eb507261e920",
+          "MEMORY_USAGE": 26292224,
+          "PARENT_PROCESS_ID": 716,
+          "PROCESS_ID": 5936,
+          "THREADS": 4,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "9df1be2703ad38deda65807f668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140695822991360,
+          "COMMAND_LINE": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --disable-gpu-compositing --lang=en-US --js-flags=--ms-user-locale= --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=74 --time-ticks-at-unix-epoch=-1720587161461888 --launch-time-ticks=2091300724 --field-trial-handle=460,i,1344937198643387701,9166643746799228435,262144 --variations-seed-version --mojo-platform-channel-handle=5340 /prefetch:1",
+          "CREATION_TIME": 1720589252857,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+          "HASH": "a588a724109c066abc1075cc6822fa1cea1a7fee1385886d37b551d9a89fe9c8",
+          "MEMORY_USAGE": 66322432,
+          "PARENT_PROCESS_ID": 920,
+          "PROCESS_ID": 5952,
+          "THREADS": 18,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "29129077ee09c08b1c773031668e1bc7"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\System32\\svchost.exe -k LocalService -p -s LicenseManager",
+          "CREATION_TIME": 1720587272699,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 21114880,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 6044,
+          "THREADS": 5,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "5e91ee37d2f30eb4a4c452ac668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140699977842688,
+          "COMMAND_LINE": "C:\\Windows\\System32\\oobe\\UserOOBEBroker.exe -Embedding",
+          "CREATION_TIME": 1720587869363,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\oobe\\UserOOBEBroker.exe",
+          "HASH": "094a94052376352fd2fad2cc666e6b52178842202f8147bc3596b5b78a7d0837",
+          "MEMORY_USAGE": 10002432,
+          "PARENT_PROCESS_ID": 716,
+          "PROCESS_ID": 6316,
+          "THREADS": 3,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "7782a370b0052d6d73211660668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k LocalServiceAndNoImpersonation -p -s SSDPSRV",
+          "CREATION_TIME": 1720587337334,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 8130560,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 6356,
+          "THREADS": 5,
+          "USER_NAME": "NT AUTHORITY\\LOCAL SERVICE",
+          "this": "b4b2cddaada01c60618e3285668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140697850544128,
+          "COMMAND_LINE": "\"C:\\Windows\\System32\\SecurityHealthSystray.exe\" ",
+          "CREATION_TIME": 1720587280109,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\SecurityHealthSystray.exe",
+          "HASH": "ead5bbb7752377bb4d9bf8dcc38a34969e254e5da87889b8d4b4788e3be0b0ef",
+          "MEMORY_USAGE": 9445376,
+          "PARENT_PROCESS_ID": 4436,
+          "PROCESS_ID": 6364,
+          "THREADS": 1,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "3b64415eba3e0638328868fe668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140697187909632,
+          "COMMAND_LINE": "C:\\Windows\\System32\\RuntimeBroker.exe -Embedding",
+          "CREATION_TIME": 1720587308058,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\RuntimeBroker.exe",
+          "HASH": "579dfced8f02a7e1e6e8df10c400117d3127ead7231776a1e467eb507261e920",
+          "MEMORY_USAGE": 14987264,
+          "PARENT_PROCESS_ID": 716,
+          "PROCESS_ID": 6480,
+          "THREADS": 1,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "aef2b7c444974e681e377553668e1743"
+        },
+        {
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "\\Device\\HarddiskVolume2\\Windows\\System32\\SecurityHealthService.exe",
+          "HASH": "b9238370f551997a3054213d945b5aa76605492cf85e90af37147566b4e700ac",
+          "MEMORY_USAGE": 15015936,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 6508,
+          "THREADS": 9,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "1631b0a8e5eff0d9a768316b668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140696347410432,
+          "COMMAND_LINE": "\"C:\\Windows\\System32\\VBoxTray.exe\" ",
+          "CREATION_TIME": 1720587283112,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\System32\\VBoxTray.exe",
+          "HASH": "1ef39a6f5348a81078be56dedb3950bb2923752a583e05ddddd0d3d4891e3476",
+          "MEMORY_USAGE": 11247616,
+          "PARENT_PROCESS_ID": 4436,
+          "PROCESS_ID": 6516,
+          "THREADS": 11,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "3c8b27ec5d23a7b0ac638cd9668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140695393009664,
+          "COMMAND_LINE": "\"C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.24052.124.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe\" -ComServer:Background -Embedding",
+          "CREATION_TIME": 1720587288787,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.24052.124.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+          "HASH": "888313d21fb680bb5c825f54a1048a53f6e1e46648a98e2d580ef27209571d88",
+          "MEMORY_USAGE": 154644480,
+          "PARENT_PROCESS_ID": 716,
+          "PROCESS_ID": 6560,
+          "THREADS": 19,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "e22b6ba46b04b9952dd0668f668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k appmodel -p -s camsvc",
+          "CREATION_TIME": 1720589724479,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 9420800,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 6728,
+          "THREADS": 2,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "d4be03d2cd74c5924bc17c78668e1d9e"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p -s lfsvc",
+          "CREATION_TIME": 1720587290972,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 12558336,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 6772,
+          "THREADS": 2,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "b361a1659b9ab49f5c5bc62b668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140695972675584,
+          "COMMAND_LINE": "mimikatz.exe",
+          "CREATION_TIME": 1720589519394,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Users\\tcm\\Downloads\\mimikatz.exe",
+          "HASH": "92804faaab2175dc501d73e814663058c78c0a042675a8937266357bcfb96c50",
+          "MEMORY_USAGE": 10182656,
+          "PARENT_PROCESS_ID": 1948,
+          "PROCESS_ID": 6840,
+          "THREADS": 2,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "50f29004e5021c5258c2d145668e1cd0"
+        },
+        {
+          "BASE_ADDRESS": 140695822991360,
+          "COMMAND_LINE": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --field-trial-handle=8456,i,1344937198643387701,9166643746799228435,262144 --variations-seed-version --mojo-platform-channel-handle=5788 /prefetch:8",
+          "CREATION_TIME": 1720589898457,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+          "HASH": "a588a724109c066abc1075cc6822fa1cea1a7fee1385886d37b551d9a89fe9c8",
+          "MEMORY_USAGE": 15765504,
+          "PARENT_PROCESS_ID": 920,
+          "PROCESS_ID": 6848,
+          "THREADS": 8,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "69a721d8a366234b0f362ffc668e1e4b"
+        },
+        {
+          "BASE_ADDRESS": 140694769369088,
+          "COMMAND_LINE": "\\??\\C:\\Windows\\system32\\conhost.exe 0x4",
+          "CREATION_TIME": 1720589106745,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\conhost.exe",
+          "HASH": "cc0a60cd15fa21e54615e46cd0f10cfbe86f496dc64d14b31d9f3b415d120ee1",
+          "MEMORY_USAGE": 32260096,
+          "PARENT_PROCESS_ID": 1948,
+          "PROCESS_ID": 6992,
+          "THREADS": 3,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "0915ce508e0444e621ea02e1668e1b34"
+        },
+        {
+          "BASE_ADDRESS": 140696090509312,
+          "COMMAND_LINE": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p -s Appinfo",
+          "CREATION_TIME": 1720587292317,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Windows\\system32\\svchost.exe",
+          "HASH": "6fc3bf1fdfd76860be782554f8d25bd32f108db934d70f4253f1e5f23522e503",
+          "MEMORY_USAGE": 8708096,
+          "PARENT_PROCESS_ID": 580,
+          "PROCESS_ID": 7028,
+          "THREADS": 1,
+          "USER_NAME": "NT AUTHORITY\\SYSTEM",
+          "this": "223290f2013a19ab33f84049668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140695822991360,
+          "COMMAND_LINE": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=audio --field-trial-handle=6248,i,1344937198643387701,9166643746799228435,262144 --variations-seed-version --mojo-platform-channel-handle=6268 /prefetch:8",
+          "CREATION_TIME": 1720587286099,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+          "HASH": "a588a724109c066abc1075cc6822fa1cea1a7fee1385886d37b551d9a89fe9c8",
+          "MEMORY_USAGE": 21528576,
+          "PARENT_PROCESS_ID": 920,
+          "PROCESS_ID": 7040,
+          "THREADS": 9,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "1f6b6ae794b1ddfd8feb0d8b668e1743"
+        },
+        {
+          "BASE_ADDRESS": 140695822991360,
+          "COMMAND_LINE": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --disable-gpu-compositing --lang=en-US --js-flags=--ms-user-locale= --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=16 --time-ticks-at-unix-epoch=-1720587161461888 --launch-time-ticks=125379259 --field-trial-handle=6472,i,1344937198643387701,9166643746799228435,262144 --variations-seed-version --mojo-platform-channel-handle=6476 /prefetch:1",
+          "CREATION_TIME": 1720587287131,
+          "FILE_IS_SIGNED": 1,
+          "FILE_PATH": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+          "HASH": "a588a724109c066abc1075cc6822fa1cea1a7fee1385886d37b551d9a89fe9c8",
+          "MEMORY_USAGE": 266993664,
+          "PARENT_PROCESS_ID": 920,
+          "PROCESS_ID": 7156,
+          "THREADS": 20,
+          "USER_NAME": "DESKTOP-C6OJ5NL\\tcm",
+          "this": "4235fc32c649ce5ad8d7ef52668e1743"
+        }
+      ]
+    },
+    "routing": {
+      "arch": 2,
+      "did": "",
+      "event_id": "3d5c39af-743e-44bd-b07e-75cfb7e29d83",
+      "event_time": 1720589899526,
+      "event_type": "OS_PROCESSES_REP",
+      "ext_ip": "192.168.1.9",
+      "hostname": "desktop-c6oj5nl.net.example.com",
+      "iid": "f02a8078-5960-4db0-9dd8-69fcac1e1df9",
+      "int_ip": "192.168.1.9",
+      "investigation_id": "b01bc1fa-2e29-419b-a4b9-59d51e4bbc7a",
+      "moduleid": 2,
+      "oid": "1b6c5df7-ef3b-4521-bad6-f1f0ac9c13aa",
+      "plat": 268435456,
+      "sid": "00b9df07-c52f-4140-a193-1405679ee5c9",
+      "tags": [
+        "windows",
+        "workstations"
+      ],
+      "this": "c86c6db55d5bb4b3a096c442668e1e4b"
+    },
+    "ts": "2024-07-10 05:38:19"
+  },
+  {
+    "event": {
+      "EVENTS": [
+        {
+          "event": {
+            "PARENT_PROCESS_ID": 496,
+            "PROCESS_ID": 6840,
+            "SOURCE": {
+              "FILE_IS_SIGNED": 1,
+              "FILE_PATH": "\\Device\\HarddiskVolume2\\Windows\\System32\\csrss.exe",
+              "HASH": "9e63d657b41e13b75aebb261e7f93c0655d52ee82811b37e7470f4119e5b6054",
+              "MEMORY_USAGE": 5558272,
+              "PARENT_PROCESS_ID": 480,
+              "PROCESS_ID": 496,
+              "THIS_ATOM": "d7569ab521b8b9508e44d336668e1742",
+              "THREADS": 12,
+              "TIMESTAMP": 1720588098006,
+              "USER_NAME": "NT AUTHORITY\\SYSTEM"
+            },
+            "TARGET": {
+              "BASE_ADDRESS": 140695972675584,
+              "COMMAND_LINE": "mimikatz.exe",
+              "FILE_IS_SIGNED": 1,
+              "FILE_PATH": "C:\\Users\\tcm\\Downloads\\mimikatz.exe",
+              "HASH": "92804faaab2175dc501d73e814663058c78c0a042675a8937266357bcfb96c50",
+              "MEMORY_USAGE": 8724480,
+              "PARENT_ATOM": "aae2fd84c3b0dd864492570c668e1b34",
+              "PARENT_PROCESS_ID": 1948,
+              "PROCESS_ID": 6840,
+              "THIS_ATOM": "50f29004e5021c5258c2d145668e1cd0",
+              "THREADS": 2,
+              "TIMESTAMP": 1720589520394,
+              "USER_NAME": "DESKTOP-C6OJ5NL\\tcm"
+            },
+            "THREAD_ID": 6456
+          },
+          "routing": {
+            "arch": 2,
+            "did": "",
+            "event_id": "f8fccbea-ecb0-4384-93f8-0b63aeb0e188",
+            "event_time": 1720590086042,
+            "event_type": "NEW_REMOTE_THREAD",
+            "ext_ip": "192.168.1.9",
+            "hostname": "desktop-c6oj5nl.net.example.com",
+            "iid": "f02a8078-5960-4db0-9dd8-69fcac1e1df9",
+            "int_ip": "192.168.1.9",
+            "moduleid": 2,
+            "oid": "1b6c5df7-ef3b-4521-bad6-f1f0ac9c13aa",
+            "parent": "d7569ab521b8b9508e44d336668e1742",
+            "plat": 268435456,
+            "sid": "00b9df07-c52f-4140-a193-1405679ee5c9",
+            "tags": [
+              "windows",
+              "workstations"
+            ],
+            "target": "50f29004e5021c5258c2d145668e1cd0",
+            "this": "d886a8645752a9de7a74d9ee668e1f06"
+          }
+        },
+        {
+          "event": {
+            "ACCESS_FLAGS": 2097151,
+            "PARENT_PROCESS_ID": 496,
+            "PROCESS_ID": 6840,
+            "SOURCE": {
+              "FILE_IS_SIGNED": 1,
+              "FILE_PATH": "\\Device\\HarddiskVolume2\\Windows\\System32\\csrss.exe",
+              "HASH": "9e63d657b41e13b75aebb261e7f93c0655d52ee82811b37e7470f4119e5b6054",
+              "MEMORY_USAGE": 5558272,
+              "PARENT_PROCESS_ID": 480,
+              "PROCESS_ID": 496,
+              "THIS_ATOM": "d7569ab521b8b9508e44d336668e1742",
+              "THREADS": 12,
+              "TIMESTAMP": 1720588098006,
+              "USER_NAME": "NT AUTHORITY\\SYSTEM"
+            },
+            "TARGET": {
+              "BASE_ADDRESS": 140695972675584,
+              "COMMAND_LINE": "mimikatz.exe",
+              "FILE_IS_SIGNED": 1,
+              "FILE_PATH": "C:\\Users\\tcm\\Downloads\\mimikatz.exe",
+              "HASH": "92804faaab2175dc501d73e814663058c78c0a042675a8937266357bcfb96c50",
+              "MEMORY_USAGE": 8724480,
+              "PARENT_ATOM": "aae2fd84c3b0dd864492570c668e1b34",
+              "PARENT_PROCESS_ID": 1948,
+              "PROCESS_ID": 6840,
+              "THIS_ATOM": "50f29004e5021c5258c2d145668e1cd0",
+              "THREADS": 2,
+              "TIMESTAMP": 1720589520394,
+              "USER_NAME": "DESKTOP-C6OJ5NL\\tcm"
+            }
+          },
+          "routing": {
+            "arch": 2,
+            "did": "",
+            "event_id": "5168905b-2d28-4df0-ba94-9bc0030f6be6",
+            "event_time": 1720590086042,
+            "event_type": "REMOTE_PROCESS_HANDLE",
+            "ext_ip": "192.168.1.9",
+            "hostname": "desktop-c6oj5nl.net.example.com",
+            "iid": "f02a8078-5960-4db0-9dd8-69fcac1e1df9",
+            "int_ip": "192.168.1.9",
+            "moduleid": 2,
+            "oid": "1b6c5df7-ef3b-4521-bad6-f1f0ac9c13aa",
+            "parent": "d7569ab521b8b9508e44d336668e1742",
+            "plat": 268435456,
+            "sid": "00b9df07-c52f-4140-a193-1405679ee5c9",
+            "tags": [
+              "windows",
+              "workstations"
+            ],
+            "target": "50f29004e5021c5258c2d145668e1cd0",
+            "this": "51fe8cd88b5cf8db1650063e668e1f06"
+          }
+        }
+      ]
+    },
+    "routing": {
+      "arch": 2,
+      "did": "",
+      "event_id": "2e89593c-78a0-4972-9be0-bf0414e81268",
+      "event_time": 1720590086541,
+      "event_type": "THREAD_INJECTION",
+      "ext_ip": "192.168.1.9",
+      "hostname": "desktop-c6oj5nl.net.example.com",
+      "iid": "f02a8078-5960-4db0-9dd8-69fcac1e1df9",
+      "int_ip": "192.168.1.9",
+      "moduleid": 2,
+      "oid": "1b6c5df7-ef3b-4521-bad6-f1f0ac9c13aa",
+      "parent": "d7569ab521b8b9508e44d336668e1742",
+      "plat": 268435456,
+      "sid": "00b9df07-c52f-4140-a193-1405679ee5c9",
+      "tags": [
+        "windows",
+        "workstations"
+      ],
+      "target": "50f29004e5021c5258c2d145668e1cd0",
+      "this": "d43d3622fcda6b9bae55afbc668e1f06"
+    },
+    "ts": "2024-07-10 05:41:26"
+  }
+]

@@ -1,0 +1,572 @@
+Delivered-To: spamcollector@gmail.com
+Received: by 2002:a59:aa12:0:b0:464:db4f:51a5 with SMTP id k18csp1584127vqo;
+        Tue, 30 Apr 2024 13:04:18 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IFdeXw9gG/+J3VvmjjqV++EDuwNbxw+VqnG7PxeSKzUhcyjHwqXPjUhkKMh/dl/CRXhGpY+
+X-Received: by 2002:a5d:6305:0:b0:34d:83cf:dc56 with SMTP id i5-20020a5d6305000000b0034d83cfdc56mr521033wru.24.1714507458127;
+        Tue, 30 Apr 2024 13:04:18 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1714507458; cv=none;
+        d=google.com; s=arc-20160816;
+        b=qbfhgIUcgcX2QC7vEPVK9R09BenbKWZggXLU57mUz9DPU77RlgWIffOw1M8pTjvaTz
+         O8DQFInajh/BoYe69L+K7Gv4EmPvTUWWjxUWaMBZ8zBE75YslUXJNQWP9NVCSGgGcjLX
+         U8C0nhz+vehOXqF0OfOpZ8un/FXjAX/9kT4tdhlJx80+bruX/T5Z1+Sjr6CPbS/nh0t2
+         MorXM2kSXCAMj2c/YkhkobxigCoFGy+mNxoHHN713dIz/xrsCNbA8R8bQAv4MZhGgnkM
+         DLzGJVgYgyadUWDOHSorff5IFoAwhknQwGlPyGrWIfG85YohMbj7Gvb2LZytUD4RqgU1
+         zMkg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=precedence:feedback-id:list-unsubscribe-post:list-unsubscribe
+         :list-id:date:subject:to:from:mime-version:message-id:dkim-signature
+         :dkim-signature;
+        bh=jtgjN7xqZW9/P+DRq+2mDtgpggHDeLplu5SQ5Kslh20=;
+        fh=waPDEeBbL5msST6+2E3srmS/AWjYHlToO/4Wq9Ls4AQ=;
+        b=ADnrUTOVEbFXZhxbPWWGG59rneZ3ySViN+O+f6pPLvz0pFs8B8TgxiRHAdq95TVHGj
+         v2NHvF6y/aQSHWIGS1uPY8QIF3q11QoJlVPTuWz6CawQr6j/ZT/cTH7rwtZG9R5D4Jxv
+         FwIAe4WHN6ii4R0LnCqg79o1Aj8UdoqUR/kdYQUy3Fi8e+tzlZiL5Wg4TAjOUgJ2GbPf
+         aCdoyPIfWHiQ7rtDUsFAgEb0dYv1cyrSiY1BahOaucJNPSOxekx1Dz4RxTKoTq0UfuTj
+         uu5rL+bRcYO5+5XKcg3hF18eGR8HMSWkEG9n57z3glyPVDEqvA2+B+bmw15s+gfrYOEd
+         ca7A==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@epicstockalerts.com header.s=mailjet header.b=jIzH6Mvy;
+       dkim=pass header.i=@bnc3.mailjet.com header.s=mailjet2 header.b=ae8n6bQq;
+       spf=pass (google.com: domain of 375011ef.avsaad7cpqwaachxmbgaancojbiaayctukwanb0hacpfgwbmmu7b@a2350875.bnc3.mailjet.com designates 185.189.236.24 as permitted sender) smtp.mailfrom=375011ef.AVsAAD7cPQwAAchxMBgAANCOjbIAAYCtUkwAnb0HACPfGwBmMU7B@a2350875.bnc3.mailjet.com
+Return-Path: <375011ef.AVsAAD7cPQwAAchxMBgAANCOjbIAAYCtUkwAnb0HACPfGwBmMU7B@a2350875.bnc3.mailjet.com>
+Received: from o24.p25.mailjet.com (o24.p25.mailjet.com. [185.189.236.24])
+        by mx.google.com with UTF8SMTPS id e10-20020adfe38a000000b0034ce8f59fedsi65840wrm.400.2024.04.30.13.04.17
+        for <spamcollector@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 30 Apr 2024 13:04:18 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 375011ef.avsaad7cpqwaachxmbgaancojbiaayctukwanb0hacpfgwbmmu7b@a2350875.bnc3.mailjet.com designates 185.189.236.24 as permitted sender) client-ip=185.189.236.24;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@epicstockalerts.com header.s=mailjet header.b=jIzH6Mvy;
+       dkim=pass header.i=@bnc3.mailjet.com header.s=mailjet2 header.b=ae8n6bQq;
+       spf=pass (google.com: domain of 375011ef.avsaad7cpqwaachxmbgaancojbiaayctukwanb0hacpfgwbmmu7b@a2350875.bnc3.mailjet.com designates 185.189.236.24 as permitted sender) smtp.mailfrom=375011ef.AVsAAD7cPQwAAchxMBgAANCOjbIAAYCtUkwAnb0HACPfGwBmMU7B@a2350875.bnc3.mailjet.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; q=dns/txt;
+  d=epicstockalerts.com; i=info@epicstockalerts.com; s=mailjet; x=1714514657;
+  h=message-id:mime-version:from:from:to:to:subject:subject:date:date:list-id:list-unsubscribe:
+  list-unsubscribe-post:feedback-id:precedence:x-campaignid:x-csa-complaints:
+  x-mj-mid:x-mj-smtpguid:x-report-abuse-to:content-type;
+  bh=8H71qhL6JZpeZG8biIAlxeiNoK6zsFpLuKKX6o51zVw=;
+  b=jIzH6MvyDAeag1Cvm8BhwCFo1tVuSbctnnt2M0MWcp28PMeJlCKKzvpHm
+ 4iTWqZXDhSJI5TGxjUE+QsK/lX/qr0KFxaiT9GHPeKvZg4D32nM97rWDKY2P
+ N8OToJgt6nQ1qtjO8UKfyIYIRELB6Bp22FiXZPjdO36lM6hbj/BZ0s=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; q=dns/txt;
+  d=bnc3.mailjet.com; s=mailjet2; x=1714514657;
+  h=message-id:mime-version:from:from:to:to:subject:subject:date:date:list-id:list-unsubscribe:
+  list-unsubscribe-post:feedback-id:precedence:x-campaignid:x-csa-complaints:
+  x-mj-mid:x-mj-smtpguid:x-report-abuse-to:content-type;
+  bh=8H71qhL6JZpeZG8biIAlxeiNoK6zsFpLuKKX6o51zVw=;
+  b=ae8n6bQqm9LQvGRrFONrT88IA2YCoEfiykYvVKCDeKS9hrdbfxVrXQutL
+ 9gzZs1Sts/+biMY17dV7tQs4rk0Q2PaJIQOOZEI+MngNQsFyt395wKX5kvzl
+ TtY/zDnM5y1Wn5Yxibe08tI/YzRUKFLt+KHnbDvuwb94Ripi6laaok=
+Return-Path:
+	<375011ef.AVsAAD7cPQwAAchxMBgAANCOjbIAAYCtUkwAnb0HACPfGwBmMU7B@a2350875.bnc3.mailjet.com>
+Message-Id: <375011ef.AVsAAD7cPQwAAchxMBgAANCOjbIAAYCtUkwAnb0HACPfGwBmMU7B@mailjet.com>
+MIME-Version: 1.0
+From: Epic Stock Alerts <info@epicstockalerts.com>
+To: spamcollector@gmail.com
+Subject: Austin Gold Corp.'s Rise as a Prime Gold Proxy (NYSE American:
+ AUST)
+Date: Tue, 30 Apr 2024 20:04:17 +0000 (UTC)
+List-Id: <info.epicstockalerts.com.0800t-5k71n.mj>
+List-Unsubscribe:
+	<mailto:unsub-375011ef.0800t.lt52pl8zyr05@bnc3.mailjet.com>,
+	<https://0800t.mjt.lu/unsub2?m=AVsAAD7cPQwAAchxMBgAANCOjbIAAYCtUkwAnb0HACPfGwBmMU7Bm0p0frrJQiegbHwTLUCmmQAhmwc&b=375011ef&e=77688397&x=IR1HTsQFG1PCjenklbmaNwN9rIAmWoORuMVEYr5ekN0>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-Id: 42.2350875.2202375:MJ
+Precedence: bulk
+X-CampaignID: 7657828376
+X-CSA-Complaints: csa-complaints@eco.de
+X-MJ-Mid:
+	AVsAAD7cPQwAAchxMBgAANCOjbIAAYCtUkwAnb0HACPfGwBmMU7Bm0p0frrJQiegbHwTLUCmmQAhmwc
+X-MJ-SMTPGUID: 9b4a747e-bac9-4227-a06c-7c132d40a699
+X-REPORT-ABUSE-TO: Message sent by Mailjet please report to
+	abuse@mailjet.com with a copy of the message
+Content-Type: multipart/alternative; boundary="=-OmTy7L0a3yC0RNxF3EVO"
+
+--=-OmTy7L0a3yC0RNxF3EVO
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+[https://0800t.mjt.lu/img2/0800t/b54996a4-7cbf-46d4-81b8-a1727b45998d/conte=
+nt]
+
+
+
+Austin Gold Corp.'s Rise as a Prime Gold Proxy (NYSE American: AUST)
+Austin Gold Corp. (NYSE American: AUST) (=E2=80=9CAustin=E2=80=9D or the =
+=E2=80=9CCompany=E2=80=9D). Austin is a gold exploration company focused on=
+ gold targets and making district-scale gold discoveries in the southwester=
+n United States. If you have gold in your corporate name, investors tend to=
+ assign it to the favourable or even =E2=80=98win=E2=80=99 column.=C2=A0
+
+Austin is a prime example of being a decent mirror/proxy to the rise in the=
+ gold price, with the punditry (Yes, it=E2=80=99s a word) espousing further=
+ gains. Not a flashy junior, the Company has substantial projects and growt=
+h that followed, but it vastly outstripped the returns of the physical.
+[https://0800t.mjt.lu/img2/0800t/e18b0443-90f9-4a45-b19e-86b6becb9e15/conte=
+nt]
+So, as a proxy, Austin stands out. 52-week range is USD0.54 to USD1.66. The=
+ average daily share trade is about 90k.
+
+Austin is a gold exploration company focused on gold targets and making dis=
+trict-scale gold discoveries in the southwestern United States.
+
+Austin has three projects in Oregon and Nevada.=C2=A0
+
+The Kelly Creek Project is located on the Battle Mountain-Eureka (Cortez) g=
+old trend in Humboldt County and=C2=A0
+
+The Lone Mountain Project is on the Independence-Jerritt Canyon gold trend =
+in Elko County.=C2=A0
+
+These properties comprise approximately 78.9 km2 of unpatented lode mining =
+claims and private property.=C2=A0
+
+In Oregon, the Stockade Mountain Project consists of approximately 21.5 km2=
+ of unpatented mining claims situated in a geological environment that appe=
+ars the same as the nearby Grassy Mountain Deposit that is being permitted =
+for underground mining.
+
+Grade?
+
+The third hole at Stockade Mountain in Oregon returned a high gold value of=
+ 9.32 g/t from a 2.7-foot (0.82-meter) interval of chalcedonic vein and bre=
+ccia. Hydrothermal alteration and mineralization in the hole are exceptiona=
+lly strong, and the rock is completely oxidized to the bottom of the hole.=
+=C2=A0
+
+Although the gold intervals are not interpreted to be one of the targeted h=
+igh-grade =E2=80=9Cfeeder=E2=80=9D veins to the high-level stockwork gold m=
+ineralization, geological indications are that they are at greater depth an=
+d in this general area. AUST is planning an RC drill program to continue th=
+e exploration of the hypothesized high-grade vein systems.
+
+Significant gold values in SM-24-04 are reported in the table below. Additi=
+onally, long intervals of >0.100 g/t gold were encountered.
+[https://0800t.mjt.lu/img2/0800t/0aef9cb4-a21a-4be5-9351-757e7d10d04e/conte=
+nt]
+Stockade Mountain Project consists of 261 unpatented lode mining claims cov=
+ering an area of 6,790 acres. It is located in Malheur County, Oregon, appr=
+oximately 85 kilometres southeast of Burns, Oregon, and 150 kilometres sout=
+hwest of Boise, Idaho.
+
+Here=E2=80=99s the Company Presentation.
+
+And it is not often that management tells you WHY you should own the Compan=
+y, or if so, it is usually fluff or bullshit.
+[https://0800t.mjt.lu/img2/0800t/813e169c-2c2a-4063-87a3-d2904b5d09cf/conte=
+nt]
+Not Austin.
+
+People: The Austin Gold team has been instrumental in building several past=
+ mining successes, including Pretium Resources (=E2=80=9CPVG=E2=80=9D), Sil=
+ver Standard Resources (now SSR Mining (=E2=80=9CSSRM=E2=80=9D)), and Urane=
+rz Energy (acquired by Energy Fuels (=E2=80=9CUUUU=E2=80=9D)). Each of thos=
+e mining companies achieved billion-dollar-plus market capitalizations.
+
+Location: Nevada and the Great Basin are world leaders in gold production
+
+Projects: Three projects being advanced with several targets on each projec=
+t means multiple opportunities for discovery
+
+Share Structure: Tight capital structure with significant insider ownership
+
+Lots more to this Company. For descriptions of all three properties, check =
+out the stats here.As good a year as physical gold has had, it didn=E2=80=
+=99t have a triple trading range.
+
+That growth is a testament to some simple tenets: management, properties an=
+d measured risk-takers.
+
+So far, so good.=C2=A0
+Forward Looking Statements
+
+This report includes forward-looking statements that reflect the mentioned =
+companies current expectations about its future results, performance, prosp=
+ects and opportunities. the mentioned companies has tried to identify these=
+ forward-looking statements by using words and phrases such as "may," "will=
+," "expects," "anticipates," "believes," "intends," "estimates," "plan," "s=
+hould," "typical," "preliminary," "we are confident" or similar expressions=
+. These forward-looking statements are based on information currently avail=
+able and are subject to a number of risks, uncertainties and other factors =
+that could cause the mentioned companies actual results, performance, prosp=
+ects or opportunities to differ materially from those expressed in, or impl=
+ied by, these forward-looking statements. These risks, uncertainties and ot=
+her factors include, without limitation, the Company's growth expectations =
+and ongoing funding requirements, and specifically, the Company's growth pr=
+ospects with scalable customers, and those outlined above. Other risks incl=
+ude the Company's limited operating history, the Company's history of opera=
+ting losses, consumers' acceptance, the Company's use of licensed technolog=
+ies, risk of increased competition, the potential need for additional finan=
+cing, the terms and conditions of any financing that is consummated, the li=
+mited trading market for the Company's securities, the possible volatility =
+of the Company's stock price, the concentration of ownership, and the poten=
+tial fluctuation in the Company's operating results.
+
+Disclaimer
+
+Epicstockalerts.com emails are intended to be stock ideas, NOT recommendati=
+ons. Please do your own research before investing. It is crucial that you a=
+t least look at current SEC filings and read the latest press releases. Inf=
+ormation contained in this report was extracted from current documents file=
+d with the SEC, the company web site and other publicly available sources d=
+eemed reliable. For more information see our disclaimer section, a link of =
+which can be found on our web site. This document contains forward-looking =
+statements, particularly as related to the business plans of the Company, w=
+ithin the meaning of Section 27A of the Securities Act of 1933 and Sections=
+ 21E of the Securities Exchange Act of 1934, and are subject to the safe ha=
+rbor created by these sections. Actual results may differ materially from t=
+he Company's expectations and estimates. This is an advertisement for the a=
+bove mentioned companies. The purpose of this advertisement, like any adver=
+tising, is to provide coverage and awareness for the company. The informati=
+on provided in this advertisement is not intended for distribution to, or u=
+se by, any person or entity in any jurisdiction or country where such distr=
+ibution or use would be contrary to law or regulation or which would subjec=
+t us to any registration requirement within such jurisdiction or country.
+
+
+
+Epic Stock Alerts has been paid by a third party to disseminate this news.
+This e-mail has been sent to spamcollector@gmail.com, click here to unsub=
+scribe https://0800t.mjt.lu/unsub2?hl=3Den&m=3DAVsAAD7cPQwAAchxMBgAANCOjbIA=
+AYCtUkwAnb0HACPfGwBmMU7Bm0p0frrJQiegbHwTLUCmmQAhmwc&b=3D375011ef&e=3D776883=
+97&x=3DIR1HTsQFG1PCjenklbmaNwN9rIAmWoORuMVEYr5ekN0.=
+
+--=-OmTy7L0a3yC0RNxF3EVO
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head><title>Austin Gold Corp.'s Rise as a Prime Gold Proxy (NYSE Ameri=
+can: AUST)</title><!--[if !mso]><!--><meta http-equiv=3D"X-UA-Compatible" c=
+ontent=3D"IE=3Dedge"><!--<![endif]--><meta http-equiv=3D"Content-Type" cont=
+ent=3D"text/html; charset=3DUTF-8"><meta name=3D"viewport" content=3D"width=
+=3Ddevice-width,initial-scale=3D1"><style type=3D"text/css">#outlook a { pa=
+dding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size=
+-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-r=
+space:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decora=
+tion:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }</style><!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]--><!--[if lte mso 11]>
+    <style type=3D"text/css">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]--><style type=3D"text/css">@media only screen and (min-width:=
+480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }</style><style media=3D"screen and (min-width:480px)">.moz-text-html=
+ .mj-column-per-100 { width:100% !important; max-width: 100%; }</style><sty=
+le type=3D"text/css">[owa] .mj-column-per-100 { width:100% !important; max-=
+width: 100%; }</style><style type=3D"text/css">@media only screen and (max-=
+width:479px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }</style><style type=3D"text/css"></style></head><body style=3D"word-sp=
+acing:normal;background-color:#F4F4F4;"><div style=3D"background-color:#F4F=
+4F4;"><!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:600px=
+;" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-h=
+eight-rule:exactly;"><![endif]--><div style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-top:0px;=
+text-align:center;"><!--[if mso | IE]><table role=3D"presentation" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vert=
+ical-align:top;width:600px;" ><![endif]--><div class=3D"mj-column-per-100 m=
+j-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;d=
+isplay:inline-block;vertical-align:top;width:100%;"><table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"vertical-al=
+ign:top;" width=3D"100%"><tbody><tr><td align=3D"center" style=3D"font-size=
+:0px;padding:10px 25px;word-break:break-word;"><table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse:=
+collapse;border-spacing:0px;"><tbody><tr><td style=3D"width:335px;"><img sr=
+c=3D"https://0800t.mjt.lu/img2/0800t/b54996a4-7cbf-46d4-81b8-a1727b45998d/c=
+ontent" style=3D"border:none;display:block;outline:none;text-decoration:non=
+e;height:auto;width:100%;font-size:13px;" width=3D"335" height=3D"auto"></t=
+d></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></=
+td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | I=
+E]></td></tr></table><table align=3D"center" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:600px;" =
+width=3D"600" bgcolor=3D"#ffffff" ><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;"><![endif]--><div style=3D"background:=
+#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;"><table a=
+lign=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" style=3D"background:#ffffff;background-color:#ffffff;width:100%=
+;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;padding:20px 0px 20p=
+x 0px;text-align:center;"><!--[if mso | IE]><table role=3D"presentation" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"=
+vertical-align:top;width:600px;" ><![endif]--><div class=3D"mj-column-per-1=
+00 mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:l=
+tr;display:inline-block;vertical-align:top;width:100%;"><table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"vertica=
+l-align:top;" width=3D"100%"><tbody><tr><td align=3D"left" style=3D"font-si=
+ze:0px;padding:0px 25px 0px 25px;padding-top:0px;padding-bottom:0px;word-br=
+eak:break-word;"><div style=3D"font-family:Verdana, Helvetica, Arial, sans-=
+serif;font-size:13px;line-height:1;text-align:left;color:#000000;"><h1 clas=
+s=3D"text-build-content" data-testid=3D"DFkufJzXTqx28oWDP23IM" style=3D"mar=
+gin-top: 10px; margin-bottom: 10px; font-weight: normal;"><span style=3D"co=
+lor:#55575d;font-family:Arial;font-size:20px;line-height:22px;"><b>Austin G=
+old Corp.'s Rise as a Prime Gold Proxy (NYSE American: AUST)</b></span></h1=
+></div></td></tr><tr><td align=3D"left" style=3D"font-size:0px;padding:0px =
+25px 0px 25px;padding-top:0px;padding-bottom:0px;word-break:break-word;"><d=
+iv style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;font-size:13p=
+x;line-height:1;text-align:left;color:#000000;"><p class=3D"text-build-cont=
+ent" style=3D"line-height: 22px; margin: 10px 0; margin-top: 10px;" data-te=
+stid=3D"GUN90JDM9hjBwCMpuK4v9"><span style=3D"color:#0c0c0c;font-family:Ari=
+al;font-size:14px;">Austin Gold Corp. (NYSE American: AUST) (=E2=80=9CAusti=
+n=E2=80=9D or the =E2=80=9CCompany=E2=80=9D). Austin is a gold exploration =
+company focused on gold targets and making district-scale gold discoveries =
+in the southwestern United States. If you have gold in your corporate name,=
+ investors tend to assign it to the favourable or even =E2=80=98win=E2=80=
+=99 column.&nbsp;</span></p><p class=3D"text-build-content" style=3D"line-h=
+eight: 22px; margin: 10px 0; margin-bottom: 10px;" data-testid=3D"GUN90JDM9=
+hjBwCMpuK4v9"><span style=3D"color:#0c0c0c;font-family:Arial;font-size:14px=
+;">Austin is a prime example of being a decent mirror/proxy to the rise in =
+the gold price, with the punditry (Yes, it=E2=80=99s a word) espousing furt=
+her gains. Not a flashy junior, the Company has substantial projects and gr=
+owth that followed, but it vastly outstripped the returns of the physical.<=
+/span></p></div></td></tr><tr><td align=3D"center" style=3D"font-size:0px;p=
+adding:10px 25px;word-break:break-word;"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse:collap=
+se;border-spacing:0px;"><tbody><tr><td style=3D"width:550px;"><img src=3D"h=
+ttps://0800t.mjt.lu/img2/0800t/e18b0443-90f9-4a45-b19e-86b6becb9e15/content=
+" style=3D"border:none;display:block;outline:none;text-decoration:none;heig=
+ht:auto;width:100%;font-size:13px;" width=3D"550" height=3D"auto"></td></tr=
+></tbody></table></td></tr><tr><td align=3D"left" style=3D"font-size:0px;pa=
+dding:10px 25px;padding-top:0px;padding-bottom:0px;word-break:break-word;">=
+<div style=3D"font-family:Arial, sans-serif;font-size:13px;letter-spacing:n=
+ormal;line-height:1;text-align:left;color:#000000;"><p class=3D"text-build-=
+content" data-testid=3D"Orf-xrda0AIFML9zE0xEW" style=3D"margin: 10px 0; mar=
+gin-top: 10px;"><span style=3D"color:#000000;font-family:Arial, Helvetica, =
+sans-serif;font-size:14px;">So, as a proxy, Austin stands out. 52-week rang=
+e is USD0.54 to USD1.66. The average daily share trade is about 90k.</span>=
+</p><p class=3D"text-build-content" data-testid=3D"Orf-xrda0AIFML9zE0xEW" s=
+tyle=3D"margin: 10px 0;"><span style=3D"color:#000000;font-family:Arial, He=
+lvetica, sans-serif;font-size:14px;">Austin is a gold exploration company f=
+ocused on gold targets and making district-scale gold discoveries in the so=
+uthwestern United States.</span></p><p class=3D"text-build-content" data-te=
+stid=3D"Orf-xrda0AIFML9zE0xEW" style=3D"margin: 10px 0;"><span style=3D"col=
+or:#000000;font-family:Arial, Helvetica, sans-serif;font-size:14px;">Austin=
+ has three projects in Oregon and Nevada.&nbsp;</span></p><p class=3D"text-=
+build-content" data-testid=3D"Orf-xrda0AIFML9zE0xEW" style=3D"margin: 10px =
+0;"><span style=3D"color:#000000;font-family:Arial, Helvetica, sans-serif;f=
+ont-size:14px;">The Kelly Creek Project is located on the Battle Mountain-E=
+ureka (Cortez) gold trend in Humboldt County and&nbsp;</span></p><p class=
+=3D"text-build-content" data-testid=3D"Orf-xrda0AIFML9zE0xEW" style=3D"marg=
+in: 10px 0;"><span style=3D"color:#000000;font-family:Arial, Helvetica, san=
+s-serif;font-size:14px;">The Lone Mountain Project is on the Independence-J=
+erritt Canyon gold trend in Elko County.&nbsp;</span></p><p class=3D"text-b=
+uild-content" data-testid=3D"Orf-xrda0AIFML9zE0xEW" style=3D"margin: 10px 0=
+;"><span style=3D"color:#000000;font-family:Arial, Helvetica, sans-serif;fo=
+nt-size:14px;">These properties comprise approximately 78.9 km2 of unpatent=
+ed lode mining claims and private property.&nbsp;</span></p><p class=3D"tex=
+t-build-content" data-testid=3D"Orf-xrda0AIFML9zE0xEW" style=3D"margin: 10p=
+x 0;"><span style=3D"color:#000000;font-family:Arial, Helvetica, sans-serif=
+;font-size:14px;">In Oregon, the Stockade Mountain Project consists of appr=
+oximately 21.5 km2 of unpatented mining claims situated in a geological env=
+ironment that appears the same as the nearby Grassy Mountain Deposit that i=
+s being permitted for underground mining.</span></p><p class=3D"text-build-=
+content" data-testid=3D"Orf-xrda0AIFML9zE0xEW" style=3D"margin: 10px 0;"><s=
+pan style=3D"color:#000000;font-family:Arial, Helvetica, sans-serif;font-si=
+ze:14px;">Grade?</span></p><p class=3D"text-build-content" data-testid=3D"O=
+rf-xrda0AIFML9zE0xEW" style=3D"margin: 10px 0;"><span style=3D"color:#00000=
+0;font-family:Arial, Helvetica, sans-serif;font-size:14px;">The third hole =
+at Stockade Mountain in Oregon returned a high gold value of 9.32 g/t from =
+a 2.7-foot (0.82-meter) interval of chalcedonic vein and breccia. Hydrother=
+mal alteration and mineralization in the hole are exceptionally strong, and=
+ the rock is completely oxidized to the bottom of the hole.&nbsp;</span></p=
+><p class=3D"text-build-content" data-testid=3D"Orf-xrda0AIFML9zE0xEW" styl=
+e=3D"margin: 10px 0;"><span style=3D"color:#000000;font-family:Arial, Helve=
+tica, sans-serif;font-size:14px;">Although the gold intervals are not inter=
+preted to be one of the targeted high-grade =E2=80=9Cfeeder=E2=80=9D veins =
+to the high-level stockwork gold mineralization, geological indications are=
+ that they are at greater depth and in this general area. AUST is planning =
+an RC drill program to continue the exploration of the hypothesized high-gr=
+ade vein systems.</span></p><p class=3D"text-build-content" data-testid=3D"=
+Orf-xrda0AIFML9zE0xEW" style=3D"margin: 10px 0; margin-bottom: 10px;"><span=
+ style=3D"color:#000000;font-family:Arial, Helvetica, sans-serif;font-size:=
+14px;">Significant gold values in SM-24-04 are reported in the table below.=
+ Additionally, long intervals of &gt;0.100 g/t gold were encountered.</span=
+></p></div></td></tr><tr><td align=3D"center" style=3D"font-size:0px;paddin=
+g:10px 25px;word-break:break-word;"><table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"border-collapse:collapse;bo=
+rder-spacing:0px;"><tbody><tr><td style=3D"width:550px;"><img src=3D"https:=
+//0800t.mjt.lu/img2/0800t/0aef9cb4-a21a-4be5-9351-757e7d10d04e/content" sty=
+le=3D"border:none;display:block;outline:none;text-decoration:none;height:au=
+to;width:100%;font-size:13px;" width=3D"550" height=3D"auto"></td></tr></tb=
+ody></table></td></tr><tr><td align=3D"left" style=3D"font-size:0px;padding=
+:10px 25px;padding-top:0px;padding-bottom:0px;word-break:break-word;"><div =
+style=3D"font-family:Arial, sans-serif;font-size:13px;letter-spacing:normal=
+;line-height:1;text-align:left;color:#000000;"><p class=3D"text-build-conte=
+nt" data-testid=3D"J0JvT-lDoNBmExJmWVR82" style=3D"margin: 10px 0; margin-t=
+op: 10px;"><span style=3D"color:#000000;font-family:Arial, Helvetica, sans-=
+serif;font-size:14px;">Stockade Mountain Project consists of 261 unpatented=
+ lode mining claims covering an area of 6,790 acres. It is located in Malhe=
+ur County, Oregon, approximately 85 kilometres southeast of Burns, Oregon, =
+and 150 kilometres southwest of Boise, Idaho.</span></p><p class=3D"text-bu=
+ild-content" data-testid=3D"J0JvT-lDoNBmExJmWVR82" style=3D"margin: 10px 0;=
+"><span style=3D"color:#000000;font-family:Arial, Helvetica, sans-serif;fon=
+t-size:14px;">Here=E2=80=99s the Company Presentation.</span></p><p class=
+=3D"text-build-content" data-testid=3D"J0JvT-lDoNBmExJmWVR82" style=3D"marg=
+in: 10px 0; margin-bottom: 10px;"><span style=3D"color:#000000;font-family:=
+Arial, Helvetica, sans-serif;font-size:14px;">And it is not often that mana=
+gement tells you WHY you should own the Company, or if so, it is usually fl=
+uff or bullshit.</span></p></div></td></tr><tr><td align=3D"center" style=
+=3D"font-size:0px;padding:10px 25px;word-break:break-word;"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"b=
+order-collapse:collapse;border-spacing:0px;"><tbody><tr><td style=3D"width:=
+550px;"><img src=3D"https://0800t.mjt.lu/img2/0800t/813e169c-2c2a-4063-87a3=
+-d2904b5d09cf/content" style=3D"border:none;display:block;outline:none;text=
+-decoration:none;height:auto;width:100%;font-size:13px;" width=3D"550" heig=
+ht=3D"auto"></td></tr></tbody></table></td></tr><tr><td align=3D"left" styl=
+e=3D"font-size:0px;padding:10px 25px;padding-top:0px;padding-bottom:0px;wor=
+d-break:break-word;"><div style=3D"font-family:Arial, sans-serif;font-size:=
+13px;letter-spacing:normal;line-height:1;text-align:left;color:#000000;"><p=
+ class=3D"text-build-content" data-testid=3D"DzSSITFlGxLW16LPsBv9e" style=
+=3D"margin: 10px 0; margin-top: 10px;"><span style=3D"color:#000000;font-fa=
+mily:Arial, Helvetica, sans-serif;font-size:14px;">Not Austin.</span></p><p=
+ class=3D"text-build-content" data-testid=3D"DzSSITFlGxLW16LPsBv9e" style=
+=3D"margin: 10px 0;"><span style=3D"color:#000000;font-family:Arial, Helvet=
+ica, sans-serif;font-size:14px;">People: The Austin Gold team has been inst=
+rumental in building several past mining successes, including Pretium Resou=
+rces (=E2=80=9CPVG=E2=80=9D), Silver Standard Resources (now SSR Mining (=
+=E2=80=9CSSRM=E2=80=9D)), and Uranerz Energy (acquired by Energy Fuels (=E2=
+=80=9CUUUU=E2=80=9D)). Each of those mining companies achieved billion-doll=
+ar-plus market capitalizations.</span></p><p class=3D"text-build-content" d=
+ata-testid=3D"DzSSITFlGxLW16LPsBv9e" style=3D"margin: 10px 0;"><span style=
+=3D"color:#000000;font-family:Arial, Helvetica, sans-serif;font-size:14px;"=
+>Location: Nevada and the Great Basin are world leaders in gold production<=
+/span></p><p class=3D"text-build-content" data-testid=3D"DzSSITFlGxLW16LPsB=
+v9e" style=3D"margin: 10px 0;"><span style=3D"color:#000000;font-family:Ari=
+al, Helvetica, sans-serif;font-size:14px;">Projects: Three projects being a=
+dvanced with several targets on each project means multiple opportunities f=
+or discovery</span></p><p class=3D"text-build-content" data-testid=3D"DzSSI=
+TFlGxLW16LPsBv9e" style=3D"margin: 10px 0;"><span style=3D"color:#000000;fo=
+nt-family:Arial, Helvetica, sans-serif;font-size:14px;">Share Structure: Ti=
+ght capital structure with significant insider ownership</span></p><p class=
+=3D"text-build-content" data-testid=3D"DzSSITFlGxLW16LPsBv9e" style=3D"marg=
+in: 10px 0;"><span style=3D"color:#000000;font-family:Arial, Helvetica, san=
+s-serif;font-size:14px;">Lots more to this Company. For descriptions of all=
+ three properties, check out the stats here.As good a year as physical gold=
+ has had, it didn=E2=80=99t have a triple trading range.</span></p><p class=
+=3D"text-build-content" data-testid=3D"DzSSITFlGxLW16LPsBv9e" style=3D"marg=
+in: 10px 0;"><span style=3D"color:#000000;font-family:Arial, Helvetica, san=
+s-serif;font-size:14px;">That growth is a testament to some simple tenets: =
+management, properties and measured risk-takers.</span></p><p class=3D"text=
+-build-content" data-testid=3D"DzSSITFlGxLW16LPsBv9e" style=3D"margin: 10px=
+ 0; margin-bottom: 10px;"><span style=3D"color:#000000;font-family:Arial, H=
+elvetica, sans-serif;font-size:14px;">So far, so good.&nbsp;</span></p></di=
+v></td></tr><tr><td align=3D"left" style=3D"font-size:0px;padding:10px 25px=
+;padding-top:0px;padding-bottom:0px;word-break:break-word;"><div style=3D"f=
+ont-family:Arial, sans-serif;font-size:13px;letter-spacing:normal;line-heig=
+ht:1;text-align:left;color:#000000;"><p class=3D"text-build-content" data-t=
+estid=3D"MSOKxwkLXE2o2LDxmqJl7" style=3D"margin: 10px 0; margin-top: 10px;"=
+><span style=3D"color:#000000;font-family:Arial, Helvetica, sans-serif;font=
+-size:14px;">Forward Looking Statements</span></p><p class=3D"text-build-co=
+ntent" data-testid=3D"MSOKxwkLXE2o2LDxmqJl7" style=3D"margin: 10px 0;"><spa=
+n style=3D"color:#000000;font-family:Arial, Helvetica, sans-serif;font-size=
+:14px;">This report includes forward-looking statements that reflect the me=
+ntioned companies current expectations about its future results, performanc=
+e, prospects and opportunities. the mentioned companies has tried to identi=
+fy these forward-looking statements by using words and phrases such as "may=
+," "will," "expects," "anticipates," "believes," "intends," "estimates," "p=
+lan," "should," "typical," "preliminary," "we are confident" or similar exp=
+ressions. These forward-looking statements are based on information current=
+ly available and are subject to a number of risks, uncertainties and other =
+factors that could cause the mentioned companies actual results, performanc=
+e, prospects or opportunities to differ materially from those expressed in,=
+ or implied by, these forward-looking statements. These risks, uncertaintie=
+s and other factors include, without limitation, the Company's growth expec=
+tations and ongoing funding requirements, and specifically, the Company's g=
+rowth prospects with scalable customers, and those outlined above. Other ri=
+sks include the Company's limited operating history, the Company's history =
+of operating losses, consumers' acceptance, the Company's use of licensed t=
+echnologies, risk of increased competition, the potential need for addition=
+al financing, the terms and conditions of any financing that is consummated=
+, the limited trading market for the Company's securities, the possible vol=
+atility of the Company's stock price, the concentration of ownership, and t=
+he potential fluctuation in the Company's operating results.</span></p><p c=
+lass=3D"text-build-content" data-testid=3D"MSOKxwkLXE2o2LDxmqJl7" style=3D"=
+margin: 10px 0;"><span style=3D"color:#000000;font-family:Arial, Helvetica,=
+ sans-serif;font-size:14px;">Disclaimer</span></p><p class=3D"text-build-co=
+ntent" data-testid=3D"MSOKxwkLXE2o2LDxmqJl7" style=3D"margin: 10px 0; margi=
+n-bottom: 10px;"><span style=3D"color:#000000;font-family:Arial, Helvetica,=
+ sans-serif;font-size:14px;">Epicstockalerts.com emails are intended to be =
+stock ideas, NOT recommendations. Please do your own research before invest=
+ing. It is crucial that you at least look at current SEC filings and read t=
+he latest press releases. Information contained in this report was extracte=
+d from current documents filed with the SEC, the company web site and other=
+ publicly available sources deemed reliable. For more information see our d=
+isclaimer section, a link of which can be found on our web site. This docum=
+ent contains forward-looking statements, particularly as related to the bus=
+iness plans of the Company, within the meaning of Section 27A of the Securi=
+ties Act of 1933 and Sections 21E of the Securities Exchange Act of 1934, a=
+nd are subject to the safe harbor created by these sections. Actual results=
+ may differ materially from the Company's expectations and estimates. This =
+is an advertisement for the above mentioned companies. The purpose of this =
+advertisement, like any advertising, is to provide coverage and awareness f=
+or the company. The information provided in this advertisement is not inten=
+ded for distribution to, or use by, any person or entity in any jurisdictio=
+n or country where such distribution or use would be contrary to law or reg=
+ulation or which would subject us to any registration requirement within su=
+ch jurisdiction or country.</span></p></div></td></tr></tbody></table></div=
+><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table>=
+</div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" st=
+yle=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-s=
+ize:0px;mso-line-height-rule:exactly;"><![endif]--><div style=3D"margin:0px=
+ auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"width:100%;"><tbody><t=
+r><td style=3D"direction:ltr;font-size:0px;padding:20px 0px 20px 0px;text-a=
+lign:center;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-ali=
+gn:top;width:600px;" ><![endif]--><div class=3D"mj-column-per-100 mj-outloo=
+k-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;display:i=
+nline-block;vertical-align:top;width:100%;"><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;=
+" width=3D"100%"><tbody><tr><td align=3D"left" style=3D"font-size:0px;paddi=
+ng:10px 25px;padding-top:0px;padding-bottom:0px;word-break:break-word;"><di=
+v style=3D"font-family:Arial, sans-serif;font-size:13px;letter-spacing:norm=
+al;line-height:1;text-align:left;color:#000000;"><p class=3D"text-build-con=
+tent" style=3D"text-align: center; margin: 10px 0; margin-top: 10px; margin=
+-bottom: 10px;" data-testid=3D"DoVH2OwaK9XPISirFlHTU"><span style=3D"color:=
+#0c0c0c;font-family:Arial, Helvetica, sans-serif;font-size:14px;">Epic Stoc=
+k Alerts has been paid by a third party to disseminate this news.</span></p=
+></div></td></tr><tr><td align=3D"left" style=3D"font-size:0px;padding:0px =
+20px 0px 20px;padding-top:0px;padding-bottom:0px;word-break:break-word;"><d=
+iv style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;font-size:13p=
+x;line-height:1;text-align:left;color:#000000;"><p class=3D"text-build-cont=
+ent" style=3D"text-align: center; margin: 10px 0; margin-top: 10px; margin-=
+bottom: 10px;" data-testid=3D"nZK_UCjoH1rOzIo9YGXmg"><span style=3D"color:#=
+0c0c0c;font-family:Arial;font-size:14px;line-height:22px;">This e-mail has =
+been sent to spamcollector@gmail.com, </span><a class=3D"link-build-conte=
+nt" style=3D"color:inherit;text-decoration:none;; text-decoration: none;" t=
+arget=3D"_blank" href=3D"https://0800t.mjt.lu/unsub2?hl=3Den&amp;m=3DAVsAAD=
+7cPQwAAchxMBgAANCOjbIAAYCtUkwAnb0HACPfGwBmMU7Bm0p0frrJQiegbHwTLUCmmQAhmwc&a=
+mp;b=3D375011ef&amp;e=3D77688397&amp;x=3DIR1HTsQFG1PCjenklbmaNwN9rIAmWoORuM=
+VEYr5ekN0"><span style=3D"color:#0c0c0c;font-family:Arial;font-size:14px;li=
+ne-height:22px;">click here to unsubscribe</span></a><span style=3D"color:#=
+0c0c0c;font-family:Arial;font-size:14px;line-height:22px;">.</span></p></di=
+v></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![en=
+dif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table>=
+<![endif]--></div>
+<br/><img src=3D"https://0800t.mjt.lu/oo/AVsAAD7cPQwAAchxMBgAANCOjbIAAYCtUk=
+wAnb0HACPfGwBmMU7Bm0p0frrJQiegbHwTLUCmmQAhmwc/804ad429/e.gif" height=3D"1" =
+width=3D"1" alt=3D"" border=3D"0" style=3D"height:1px;width:1px;border:0;"/=
+>
+</body></html>=
+
+--=-OmTy7L0a3yC0RNxF3EVO--
+

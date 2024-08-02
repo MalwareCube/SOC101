@@ -1,0 +1,42 @@
+Received: from PH0PR19MB5428.namprd19.prod.outlook.com (2603:10b6:510:fe::21)
+ by MN0PR19MB6312.namprd19.prod.outlook.com with HTTPS; Sun, 6 Aug 2023
+ 15:47:22 +0000
+Received: from MW4PR04CA0227.namprd04.prod.outlook.com (2603:10b6:303:87::22)
+ by PH0PR19MB5428.namprd19.prod.outlook.com (2603:10b6:510:fe::21) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6652.25; Sun, 6 Aug
+ 2023 15:47:21 +0000
+Received: from MW2NAM10FT067.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:303:87:cafe::3) by MW4PR04CA0227.outlook.office365.com
+ (2603:10b6:303:87::22) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6652.26 via Frontend
+ Transport; Sun, 6 Aug 2023 15:47:20 +0000
+Authentication-Results: spf=pass (sender IP is 188.172.137.15)
+ smtp.mailfrom=pcpilrjf.zendesk.com; dkim=pass (signature was verified)
+ header.d=zendesk.com;dmarc=pass action=none
+ header.from=pcpilrjf.zendesk.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of pcpilrjf.zendesk.com
+ designates 188.172.137.15 as permitted sender)
+ receiver=protection.outlook.com; client-ip=188.172.137.15;
+ helo=outbyoip15.pod17.euw1.zdsys.com; pr=C
+Received: from outbyoip15.pod17.euw1.zdsys.com (188.172.137.15) by
+ MW2NAM10FT067.mail.protection.outlook.com (10.13.154.76) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6631.49 via Frontend Transport; Sun, 6 Aug 2023 15:47:20 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:2887B0E0568E6A547A066B9AA92B02256381A45E1AAC55390380D025A4B89C25;UpperCasedChecksum:F0F9D11EEB07C7DC138E18BF0C062371E0825AA7A9C2238AE2535340864E3C37;SizeAsReceived:1587;Count:18
+Received: from zendesk.com (unknown [10.218.152.52])
+	by outbyoip15.pod17.euw1.zdsys.com (Postfix) with ESMTP id 4RJkNR52PSz14K2k
+	for <phishing@pot>; Sun,  6 Aug 2023 15:47:19 +0000 (UTC)
+Date: Sun, 06 Aug 2023 15:47:19 +0000
+From: Customer Care 2 <support@pcpilrjf.zendesk.com>
+Reply-To: Customer Care 2 <support+id407641@pcpilrjf.zendesk.com>
+To: Rodrigo-f-p <phishing@pot>
+Message-ID: <9K662EWK01L_64cfc0877a983_41468c10409d6_sprut@zendesk.com>
+In-Reply-To: <9K662EWK01L@zendesk.com>
+Subject: Verify Your Wallet Now to Ensure Safe and Smooth Access
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+PGEgaHJlZj0iaHR0cDovL3RyYW5zLm1haWxuci5jb20vRFJBWUxGP2lkPTExMTY1MT1ka3hWVUFJSURnQUhIbE1NQWd4VEJRUUhBRnRRVkY5U0JBa0FVZ29CQmxFRkFWZFFVVmhiQkFSVkFsWUJEMUVBVTFkTENVSlRWZ0JkVjExMldsNUVEbFJaQ1U5UVZsVkpCMVFKQlFFUEJBQUNBQWRSQndNTFZnRkZXMEpHUVFwTUdrUVhBRjFLRmxoWEMxeGFRUmRXWGxnY2N6QndhM1VpQzFCWFNrUUMmYW1wO2ZsPVhVUVJFUWtXRjFSWUZsbFFWazhiV2x4ZFJCWlFIRm9JVzB4WEdWTmZSQXBaUndRVFFGQVhYRmdHVlV3ZFNWMUJ2IiByZWw9Im5vcmVmZXJyZXIiPlByb2NlZWQgdG8gV2FsbGV0IFZlcmlmaWNhdGlvbjwvYT4=
